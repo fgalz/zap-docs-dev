@@ -10,6 +10,11 @@ const openai = new OpenAI({
 const SOURCE_DIR = 'docs';
 const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar']; // anpassen nach Bedarf
 
+// ---------------- Token Counter ----------------
+let totalPromptTokens = 0;
+let totalCompletionTokens = 0;
+let totalTokens = 0;
+
 // ---------------- Geänderte Markdown-Dateien finden ----------------
 
 function getChangedMarkdownFiles() {
@@ -49,6 +54,13 @@ async function translateContent(content, targetLang) {
     temperature: 0.1
   });
 
+  // Token usage erfassen
+  if (response.usage) {
+    totalPromptTokens += response.usage.prompt_tokens || 0;
+    totalCompletionTokens += response.usage.completion_tokens || 0;
+    totalTokens += response.usage.total_tokens || 0;
+  }
+
   return response.choices[0].message.content;
 }
 
@@ -85,6 +97,12 @@ async function main() {
       }
     }
   }
+
+  // Zusammenfassung der Token-Nutzung
+  console.log('\n--- Translation Token Usage ---');
+  console.log(`Prompt tokens:     ${totalPromptTokens}`);
+  console.log(`Completion tokens: ${totalCompletionTokens}`);
+  console.log(`Total tokens:      ${totalTokens}`);
 }
 
 main().catch(console.error);
