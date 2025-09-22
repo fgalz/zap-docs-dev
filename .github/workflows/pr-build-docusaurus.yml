@@ -1,0 +1,58 @@
+name: PR Build and Translate Docusaurus
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**/*.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ${{ github.workspace }}
+
+      - name: Run translation process
+        run: node translate.js
+        working-directory: ${{ github.workspace }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Commit translations to PR branch
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add -A i18n/
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-translate docs"
+            git push origin HEAD:${{ github.head_ref }}
+          else
+            echo "No translation changes to commit"
+          fi
+
+      - name: Build Docusaurus
+        run: |
+          npm run write-translations -- --locale de
+          npm run write-translations -- --locale es
+          npm run write-translations -- --locale fr
+          npm run write-translations -- --locale ar
+
+          rm -rf build
+          npm run docusaurus clear
+          rm -f build.tar
+          npm run build
+          tar cf build.tar -C build --transform 's~^\./~~' .
+        working-directory: ${{ github.workspace }}

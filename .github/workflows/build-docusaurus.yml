@@ -1,0 +1,89 @@
+name: Build Docusaurus
+
+on:
+  push:
+    branches: ["master", "main"]
+    paths:
+      - 'docs/**/*.md'
+
+permissions:
+  checks: write
+  contents: write   
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: .
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache translations
+        uses: actions/cache@v3
+        with:
+          path: .translation-cache
+          key: translations-${{ hashFiles('docs/**/*.md') }}
+          restore-keys: translations-
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ${{ github.workspace }}
+
+      # Übersetzungen erzeugen
+      - name: Translate changed docs
+        run: node translate.js
+        working-directory: ${{ github.workspace }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Debug new files
+        run: |
+          echo "Unstaged changes:"
+          git status --untracked-files=all --short
+
+      - name: Commit translations
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          git add -A
+          git commit -m "Auto-translate docs"
+
+      - name: Push back to PR branch
+        run: |
+          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
+          HEAD:${{ github.head_ref || github.ref_name }}
+
+      - name: Build Docusaurus
+        run: |
+          npm run write-translations -- --locale de
+          npm run write-translations -- --locale es
+          npm run write-translations -- --locale fr
+          npm run write-translations -- --locale ar
+
+          rm -rf build
+          npm run docusaurus clear
+          rm -f build.tar
+          npm run build
+          tar cf build.tar -C build --transform 's~^\./~~' .
+
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add --all .
+          git diff --exit-code && git commit -am "update i18n" || true
+          git push
+        working-directory: ${{ github.workspace }}
+                
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with: 
+              name: build
+              path: docusaurus/build.tar
+              retention-days: 90
+              

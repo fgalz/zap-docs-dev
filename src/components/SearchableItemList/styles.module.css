@@ -1,0 +1,127 @@
+.listContainer {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.filterButton {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14.4px;
+  transition: background-color 0.2s ease;
+}
+
+[data-theme='dark'] .filterButton {
+  background-color: rgb(38 38 38);
+}
+
+.filterButton[aria-pressed="true"] {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .filterButton[aria-pressed="true"] {
+  background-color: var(--ifm-color-primary);
+  color: black;
+  border-color: var(--ifm-color-primary);
+}
+
+.searchField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+[data-theme='dark'] .searchField {
+  background-color: rgb(38 38 38);
+}
+
+.entryList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.entryCard {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+[data-theme='dark'] .entryCard {
+  background-color: rgb(38 38 38);
+}
+
+.entryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.entryTitle {
+  font-size: 16px;
+  margin: 0;
+}
+
+.entryDescription {
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.entryToggle {
+  background: none;
+  border: none;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0;
+  margin-top: -8px;
+  margin-bottom: 16px;
+  align-self: flex-start;
+}
+
+.badgeGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-color-primary);
+  font-size: 9.6px;
+  padding: 1px 8px;
+  border-radius: 3px;
+  border: 1px solid var(--ifm-color-primary);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.entryCounter {
+  margin: 10px 0 10px 0;
+  font-size: 14.4px;
+  color: #666;
+}
