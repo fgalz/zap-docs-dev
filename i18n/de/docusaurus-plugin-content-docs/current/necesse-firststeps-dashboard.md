@@ -1,7 +1,7 @@
 ---
 id: necesse-firststeps-dashboard
 title: "Necesse: Dashboard-Übersicht"
-description: Informationen zum Dashboard eines Necesse-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
+description: Informationen über das Dashboard eines Necesse-Servers von ZAP-Hosting - ZAP-Hosting.com Dokumentation
 sidebar_label: Dashboard
 services:
   - gameserver-necesse
@@ -11,25 +11,25 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Einführung
 
-Du interessierst dich für einen **Necesse-Server** oder besitzt bereits einen, hast aber noch keinen umfassenden Überblick über die Administration und die Auffindbarkeit aller notwendigen Optionen? Gerade am Anfang kann das eine Herausforderung sein. Aber keine Sorge, wir geben dir unten eine ausführliche Einführung in die Verwaltung deines Services, damit du die bestmögliche Übersicht erhältst.
+Sie interessieren sich für einen **Necesse-Server** oder besitzen bereits einen, aber Ihnen fehlt noch eine umfassende Übersicht über die Verwaltung und die Auffindbarkeit aller notwendigen Optionen? Besonders zu Beginn kann dies eine Herausforderung sein. Aber keine Sorge, wir bieten Ihnen unten eine detaillierte Einführung in die Verwaltung Ihres Dienstes, damit Sie die bestmögliche Übersicht haben.
 
-Nach Durcharbeiten dieser Anleitung wirst du deinen Server problemlos effizient verwalten und alle notwendigen Optionen und Funktionen schnell und einfach finden können. Hier erhältst du eine strukturierte Übersicht, die dir Schritt für Schritt hilft, dich mit der Serververwaltung vertraut zu machen und dein Wissen gezielt zu erweitern. So kannst du sicherstellen, dass dein **Necesse-Server** optimal an deine Bedürfnisse angepasst ist und du das Maximum aus den verfügbaren Optionen herausholst. Test
+Nachdem Sie diesen Leitfaden durchgegangen sind, werden Sie in der Lage sein, Ihren Server effizient zu verwalten und alle notwendigen Optionen und Funktionen schnell und einfach zu finden. Hier erhalten Sie eine strukturierte Übersicht, die Ihnen Schritt für Schritt hilft, sich mit der Serververwaltung vertraut zu machen und Ihr Wissen gezielt zu erweitern. So können Sie sicherstellen, dass Ihr **Necesse-Server** optimal auf Ihre Bedürfnisse angepasst ist und Sie das Beste aus den verfügbaren Optionen herausholen.
 
 <InlineVoucher />
 
 ## Produktverwaltung
 
-Im Bereich **Produktverwaltung** findest du alle notwendigen Seiten zur Verwaltung deines Servers. Die Optionen zur Verwaltung deines Servers sind im Folgenden detailliert aufgelistet.
+Im Abschnitt **Produktverwaltung** finden Sie alle notwendigen Seiten zur Verwaltung Ihres Servers. Die Optionen zur Verwaltung Ihres Servers sind im Folgenden detailliert aufgeführt. 
 
 
 
 ### Dashboard
 
-Das **Dashboard** deines Servers ist das Herzstück der Administration. Hier werden alle grundlegenden und wichtigen Informationen zu deinem Service übersichtlich dargestellt. Dazu gehören beispielsweise Informationen zum Standort, Status, IP: Port, genutztem Speicher, laufendem Spiel, Servername, Karte und der Anzahl verfügbarer Slots. Zusätzlich wird auch die Auslastung von CPU, Speicher und RAM angezeigt.
+Das **Dashboard** Ihres Servers ist das Herzstück der Verwaltung. Alle grundlegenden und wesentlichen Informationen über Ihren Dienst werden hier klar dargestellt. Dazu gehören beispielsweise Informationen über den Standort, den Status, IP: Port, verwendeten Speicher, laufendes Spiel, Servername, Karte und die Anzahl der verfügbaren Slots. Darüber hinaus wird auch die Auslastung der CPU, des Speichers und des RAM angezeigt.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/HKWMjAMexGeHQmw/preview)
 
-Im Dashboard hast du außerdem die Möglichkeit, deinen Service zu starten, zu stoppen oder neu zu starten, um die volle Kontrolle über den Betrieb zu haben. Zudem kannst du auf die Live-Konsole zugreifen, um Echtzeitinformationen über den Zustand des Servers zu erhalten und bei Bedarf direkt eingreifen zu können.
+Im Dashboard haben Sie auch die Möglichkeit, Ihren Dienst zu starten, zu stoppen oder neu zu starten, um die volle Kontrolle über dessen Betrieb zu haben. Darüber hinaus können Sie auf die Live-Konsole zugreifen, um Echtzeitinformationen über den Zustand des Servers zu erhalten und bei Bedarf direkt zu handeln.
 
 
 
@@ -38,94 +38,77 @@ Im Dashboard hast du außerdem die Möglichkeit, deinen Service zu starten, zu s
 
 ### DDoS-Manager
 
+Sehen Sie sich vergangene DDoS-Angriffe an, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktivieren Sie Benachrichtigungen für laufende DDoS-Angriffe auf Ihren Server, um schnell reagieren zu können, wenn ein Vorfall auftritt.
 
+Je nach Serverstandort und dem dort verfügbaren DDoS-Schutz können Sie auch aktive Angriffe in Echtzeit überwachen. Dazu gehören detaillierte Verkehrseinblicke, die sowohl legitimen Verkehr als auch die Menge des durch die Abwehrsysteme blockierten Verkehrs zeigen. Dieses Maß an Transparenz hilft Ihnen zu verstehen, wie der Schutz funktioniert, und ermöglicht es Ihnen, potenzielle Risiken frühzeitig zu erkennen.
 
-Sieh dir vergangene DDoS-Angriffe an, um potenzielle Bedrohungen und Muster besser einschätzen zu können. Aktiviere Benachrichtigungen für laufende DDoS-Angriffe auf deinen Server, um bei einem Vorfall schnell reagieren zu können.
-
-Je nach Serverstandort und dort verfügbarer DDoS-Schutz kannst du auch aktive Angriffe in Echtzeit überwachen. Dies beinhaltet detaillierte Traffic-Einblicke, die sowohl legitimen Traffic als auch die Menge des durch die Schutzsysteme blockierten Traffics anzeigen. Dieses Maß an Transparenz hilft dir zu verstehen, wie der Schutz funktioniert, und ermöglicht es dir, potenzielle Risiken frühzeitig zu erkennen.
-
-:::info DDoS-Manager-Zugang fehlt?
-Die Nutzung des DDoS-Managers erfordert entweder eine dedizierte IP-Adresse oder die Zusatzoption „DDoS Manager Übersicht“. Wenn dein aktuelles Paket diese Komponenten nicht enthält, kannst du sie jederzeit durch ein Upgrade deines Services hinzufügen.
+:::info Fehlender Zugriff auf den DDoS-Manager?
+Die Nutzung des DDoS-Managers erfordert entweder eine dedizierte IP-Adresse oder die zusätzliche Option "DDoS-Manager-Übersicht". Wenn Ihr aktuelles Paket diese Komponenten nicht enthält, können Sie sie jederzeit durch ein Upgrade Ihres Dienstes hinzufügen.
 :::
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/ScCCCY52CMLgfyE/preview)
 
-
-
-
-
 :::warning
-Die Nutzung des DDoS-Managers ist nur möglich, wenn entweder eine eigene IP-Adresse oder die Option „DDoS Manager Übersicht“ als Zusatzoption gebucht wurde. Fehlen diese Komponenten in deinem aktuellen Paket, kannst du sie jederzeit durch ein Upgrade hinzufügen.
+Die Nutzung des DDoS-Managers ist nur möglich, wenn entweder eine eigene IP-Adresse oder die Option "DDoS-Manager-Übersicht" als zusätzliche Option gebucht wurde. Wenn diese Komponenten in Ihrem aktuellen Paket fehlen, können Sie sie jederzeit durch ein Upgrade hinzufügen.
 :::
 
 
 
-### Logdateien
+### Protokolldateien
 
-Tritt ein technisches Problem auf und du bist dir unsicher über die Ursache? Eine erste mögliche Lösungsstrategie ist die Überprüfung der **Logdateien**. Diese Dateien enthalten viele Informationen über den Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
+Tritt ein technisches Problem auf und Sie sind sich über die Ursache unsicher? Eine erste mögliche Lösungsstrategie besteht darin, die **Protokolldateien** zu überprüfen. Diese Dateien enthalten viele Informationen über den Server, wie aktuelle Ereignisse, Hinweise oder Fehlermeldungen.
 
-Insbesondere Fehlermeldungen können helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oft können Schwierigkeiten durch einen gezielten Blick in die Logdateien aufgedeckt und behoben werden.
+Insbesondere Fehlermeldungen können helfen, die Ursache eines Problems zu identifizieren und besser zu verstehen. Oft können Schwierigkeiten aufgedeckt und gelöst werden, indem man gezielt einen Blick in die Protokolldateien wirft.
 
 :::warning
-Die dort gefundenen Informationen helfen nicht weiter oder du verstehst sie nicht? Keine Sorge! In diesem Fall sind wir auch täglich im Support erreichbar. Erstelle einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** und schildere uns dein Problem. Wir schauen es uns so schnell wie möglich an und helfen dir entsprechend bei der Problemlösung! :)
+Die dort gefundenen Informationen helfen nicht oder Sie verstehen sie nicht? Keine Sorge! In diesem Fall sind wir auch täglich im Support verfügbar. Erstellen Sie einfach ein **[Ticket](https://zap-hosting.com/en/customer/support/)** und erklären Sie uns Ihr Problem. Wir werden es so schnell wie möglich prüfen und Ihnen helfen, das Problem entsprechend zu lösen! :)
 :::
 
 
 ### Ereignisprotokoll
 
-Das **Ereignisprotokoll** bietet dir eine umfassende Übersicht über alle Aktivitäten im Zusammenhang mit der Serververwaltung. Hier kannst du jederzeit nachvollziehen, wann ein Server gestartet, gestoppt oder abgestürzt ist sowie wann Updates, Backups oder Neuinstallationen durchgeführt wurden.
+Das **Ereignisprotokoll** bietet Ihnen einen umfassenden Überblick über alle Aktivitäten im Zusammenhang mit der Serververwaltung. Hier können Sie jederzeit nachverfolgen, wann ein Server gestartet, gestoppt oder abgestürzt ist, sowie wann Updates, Backups oder Neuinstallationen durchgeführt wurden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xNzsaMbW5BS5KJC/preview)
 
 
 
-### Serviceunterbrechungen
+### Dienstunterbrechungen
 
-Dein Server war vorübergehend offline und du kannst dir nicht erklären warum? Ein Blick ins Ereignisprotokoll und die Logdateien hat auch keine Informationen geliefert? Es könnte sein, dass die Ursache des Problems nicht direkt bei deinem Server liegt, sondern beim Hostsystem, auf dem dein Server betrieben wird.
+Ihr Server war vorübergehend offline und Sie können sich nicht erklären, warum? Ein Blick in das Ereignisprotokoll und die Protokolldateien hat ebenfalls keine Informationen geliefert? Es könnte sein, dass die Ursache des Problems nicht direkt bei Ihrem Server liegt, sondern beim Hostsystem, auf dem Ihr Server betrieben wird.
 
-Wenn unser Überwachungssystem eine allgemeine Unterbrechung erkennt, werden unsere Techniker automatisch benachrichtigt und kümmern sich so schnell wie möglich um das Problem.
+Wenn unser Überwachungssystem eine allgemeine Unterbrechung feststellt, werden unsere Techniker automatisch benachrichtigt und kümmern sich so schnell wie möglich um das Problem.
 
-In diesem Bereich findest du eine Übersicht über die Unterbrechungshistorie des Hostsystems, auf dem dein Gameserver-Service läuft. Weitere Informationen und die aktuelle Version unseres Service-Status findest du auf unserer neuen [Statusseite](https://status.zap-hosting.com/).
-
-
-
-
-
-
-
-
-
-
-
+In diesem Abschnitt finden Sie eine Übersicht über die Unterbrechungshistorie des Hostsystems, auf dem Ihr Spielserverdienst läuft. Weitere Informationen und die aktuelle Version unseres Dienststatus finden Sie auf unserer neuen [Statusseite](https://status.zap-hosting.com/).
 
 ## Einstellungen
 
-Im Bereich **Einstellungen** findest du alle notwendigen Seiten zur Konfiguration deines Servers. Die verfügbaren Optionen zur Konfiguration deines Servers sind im Folgenden detailliert aufgelistet.
+Im Abschnitt **Einstellungen** finden Sie alle notwendigen Seiten zur Konfiguration Ihres Servers. Die verfügbaren Optionen zur Konfiguration Ihres Servers sind im Folgenden detailliert aufgeführt.
 
 
 
 ### Einstellungen
 
-Unter den Einstellungen findest du eine Übersicht der gängigsten Einstellungsmöglichkeiten für deinen Server. Diese beinhalten auch eine kurze Erklärung. Die Nutzung der Einstellungsseite wird besonders für Einsteiger in die Serververwaltung empfohlen.
+Unter den Einstellungen finden Sie eine Übersicht über die häufigsten Einstellungsmöglichkeiten für Ihren Server. Diese enthalten auch eine kurze Erklärung. Die Nutzung der Einstellungsseite wird besonders für Neulinge in der Serververwaltung empfohlen.
 
-Wenn du sicherer bist und präzisere Änderungen vornehmen möchtest, empfehlen wir stattdessen die Verwendung des Config Editors. Mehr Informationen dazu findest du in der Kategorie **Configs**.
+Wenn Sie sich sicherer fühlen und genauere Änderungen vornehmen möchten, empfehlen wir die Verwendung des Konfigurationseditors. Weitere Informationen dazu finden Sie in der Kategorie **Configs**.
 
 
 
-### Configs
+### Konfigurationen
 
-Der Config-Datei-Editor ermöglicht es dir, die Konfigurationsdateien direkt über die Webseite auf klassische Weise, ohne vereinfachte Ansicht, zu bearbeiten. Diese Option erlaubt es dir, die Einstellungen deines Servers individuell anzupassen und nach deinen persönlichen Vorlieben zu konfigurieren.
+Der Konfigurationsdateieditor ermöglicht es Ihnen, die Konfigurationsdateien direkt von der Website auf klassische Weise zu bearbeiten, ohne die vereinfachte Ansicht. Diese Option ermöglicht es Ihnen, die Einstellungen Ihres Servers anzupassen und gemäß Ihren persönlichen Vorlieben zu konfigurieren.
 
-Durch die Nutzung des Editors erhältst du direkten Zugriff auf alle verfügbaren Optionen und kannst diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Nutzer, die volle Kontrolle über ihre Servereinstellungen haben möchten und genau wissen, welche Änderungen sie vornehmen wollen.
+Durch die Verwendung des Editors erhalten Sie direkten Zugriff auf alle verfügbaren Optionen und können diese präzise anpassen. Dies ist besonders nützlich für fortgeschrittene Benutzer, die die volle Kontrolle über ihre Servereinstellungen haben möchten und genau wissen, welche Änderungen sie vornehmen möchten.
 
 :::warning
-Ist dir aufgefallen, dass einige deiner Änderungen teilweise überschrieben werden? Bitte beachte, dass bestimmte Optionswerte von der Einstellungsseite übernommen werden. Wenn du diese Änderungen direkt in der Config vornehmen möchtest, musst du die entsprechenden Optionen auf der Einstellungsseite zuerst deaktivieren.
+Haben Sie bemerkt, dass einige Ihrer Änderungen teilweise überschrieben werden? Bitte beachten Sie, dass bestimmte Optionswerte von der Einstellungsseite übernommen werden. Wenn Sie diese Änderungen direkt in der Konfiguration vornehmen möchten, müssen Sie zuerst die entsprechenden Optionen auf der Einstellungsseite deaktivieren.
 :::
 
 
 ### Spiele
 
-Unter **Spiele** hast du jederzeit die Möglichkeit, die Spielvariante deines bestehenden Spiels zu ändern oder generell ein anderes Spiel zu installieren. Spiele mit dem gleichen Slot-Preis können direkt unter **Verfügbare Spiele** ausgewählt werden. Für alle anderen Spiele ist zunächst eine Anpassung des Slot-Preises erforderlich. Mehr Informationen dazu findest du im Game Change Guide.
+Unter **Spiele** haben Sie immer die Möglichkeit, die Spielvariante Ihres bestehenden Spiels zu ändern oder ein anderes Spiel im Allgemeinen zu installieren. Spiele mit dem gleichen Slotpreis können direkt unter **Verfügbare Spiele** ausgewählt werden. Für alle anderen Spiele ist zunächst eine Anpassung des Slotpreises erforderlich. Weitere Informationen dazu finden Sie im Leitfaden zum Spielwechsel.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -133,23 +116,23 @@ Unter **Spiele** hast du jederzeit die Möglichkeit, die Spielvariante deines be
 
 ### Versionen
 
-Unter **Versionen** hast du die Möglichkeit, die aktuelle Version deines Gameservers einzusehen und zu verwalten. Hier kannst du jederzeit auf die neueste Version updaten oder automatische Updates aktivieren, um sicherzustellen, dass dein Server stets auf dem neuesten Stand ist.
+Unter **Versionen** haben Sie die Möglichkeit, die aktuelle Version Ihres Spielservers anzuzeigen und zu verwalten. Hier können Sie jederzeit auf die neueste Version aktualisieren oder automatische Updates aktivieren, um sicherzustellen, dass Ihr Server immer auf dem neuesten Stand ist.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
-Außerdem kannst du die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um über Updates informiert zu bleiben und sicherzustellen, dass du immer auf dem neuesten Stand bist.
+Darüber hinaus können Sie auch die E-Mail-Benachrichtigungsfunktion für automatische Updates aktivieren, um über Updates informiert zu werden und sicherzustellen, dass Sie immer auf dem neuesten Stand sind.
 
 
 
 ### Geplante Aufgaben
 
-Erstelle geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden, um verschiedene Prozesse auf deinem Server zu automatisieren. Du kannst einstellen, ob eine Aufgabe einmalig oder wiederholt ausgeführt werden soll. Unterstützte Aufgabentypen sind unter anderem das Starten, Stoppen oder Neustarten von Services, Neustart des Servers bei Online-Status, Erstellen von Backups oder Ausführen benutzerdefinierter Befehle. 
+Erstellen Sie geplante Aufgaben, die automatisch zu definierten Zeiten ausgeführt werden, um verschiedene Prozesse auf Ihrem Server zu automatisieren. Sie können festlegen, ob eine Aufgabe einmal oder nach Bedarf wiederholt werden soll. Unterstützte Aufgabentypen umfassen das Starten, Stoppen oder Neustarten von Diensten, das Neustarten des Servers, wenn er online ist, das Erstellen von Backups oder das Ausführen benutzerdefinierter Befehle. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/P6DeWiRC3tDqG2z/preview)
 
 ### Neustartplaner
 
-Möchtest du Serverneustarts zu bestimmten Zeiten planen? Der Neustartplaner ermöglicht es dir, geplante automatische Neustarts deines Gameservers einzurichten. Mit dieser Funktion kannst du Neustarts zu bestimmten Zeiten oder in regelmäßigen Abständen festlegen.
+Möchten Sie Serverneustarts zu bestimmten Zeiten planen? Der Neustartplaner ermöglicht es Ihnen, geplante automatische Neustarts Ihres Spielservers einzurichten. Mit dieser Funktion können Sie Neustarts zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/Y6WciDS7YP98P4m/preview)
 
@@ -157,25 +140,25 @@ Möchtest du Serverneustarts zu bestimmten Zeiten planen? Der Neustartplaner erm
 
 ## Werkzeuge
 
-Im Bereich **Werkzeuge** deines Navigationspanels findest du eine Reihe von Unterpunkten, die dir bei der Verwaltung deines Servers helfen. Dazu gehören **FTP-Browser**, **Datenbanken** und **Backups**. Im Folgenden erhältst du eine detaillierte Einführung in diese verschiedenen Bereiche.
+Im Abschnitt **Werkzeuge** Ihres Navigationspanels finden Sie eine Reihe von Unterpunkten, die Ihnen bei der Verwaltung Ihres Servers helfen. Dazu gehören **FTP-Browser**, **Datenbanken** und **Backups**. Im Folgenden erhalten Sie eine detaillierte Einführung in diese verschiedenen Bereiche.
 
 
 
 ### FTP-Browser
 
-Mit dem **FTP-Browser** erhältst du alle notwendigen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht dir den direkten Zugriff auf die Dateien deines Gameservers. Für eine optimale Nutzung empfehlen wir die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP**. Wenn du mit der Nutzung von FTP nicht vertraut bist, empfehlen wir einen Blick in unseren FTP-Zugang-Guide, der dir weiterhelfen kann.
+Mit dem **FTP-Browser** erhalten Sie alle notwendigen Informationen, um eine Verbindung zum FTP-Zugang herzustellen. Der FTP-Zugang ermöglicht Ihnen den direkten Zugriff auf die Dateien Ihres Spielservers. Wir empfehlen die Verwendung eines externen FTP-Programms wie **Filezilla** oder **WinSCP** für eine optimale Nutzung. Wenn Sie nicht wissen, wie man FTP verwendet, empfehlen wir einen Blick in unseren Leitfaden zum FTP-Zugang, der Ihnen helfen könnte.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
-**FileZilla:**  FileZilla ist wohl der einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste deine Zugangsdaten eingeben, die du auf dieser Seite etwas weiter oben findest. Nach einem schnellen Klick auf „Verbinden“ bist du direkt am Server angemeldet und kannst die Dateien verwalten.
+**FileZilla:**  FileZilla ist der wohl einfachste und bekannteste FTP-Client. Einfach installieren, starten und in der oberen Leiste Ihre Zugangsdaten eingeben, die Sie auf dieser Seite etwas weiter oben finden. Nach einem schnellen Klick auf "Verbinden" sind Sie direkt am Server angemeldet und können die Dateien verwalten.
 
-**WinSCP:**  WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Varianten des Dateiübertragungsprotokolls FTP) gedacht, kann aber genauso gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene Nutzer.
+**WinSCP:**  WinSCP ist eigentlich für SCP und SFTP (die verschlüsselten Abkömmlinge des Dateiübertragungsprotokolls FTP) gedacht, kann aber genauso gut mit dem normalen FTP umgehen. Das Programm ist etwas umfangreicher als FileZilla und eignet sich eher für fortgeschrittene Benutzer.
 
 
 
 ### Datenbanken
 
-Neben unseren Gameserver-Produkten bieten wir auch 10 inklusive Datenbanken an. Diese Datenbanken werden beispielsweise benötigt, wenn Daten in einer Datenbank gespeichert werden müssen. Unter **Datenbanken** kannst du eine Datenbank erstellen und die Zugangsdaten einsehen. Außerdem hast du die Möglichkeit, die Backup-Option zu aktivieren und bestehende Datenbank-Backups zu importieren.
+Neben unseren Spielserverprodukten bieten wir auch 10 enthaltene Datenbanken an. Diese Datenbanken sind notwendig, wenn beispielsweise Daten in einer Datenbank gespeichert werden müssen. Unter **Datenbanken** können Sie eine Datenbank erstellen und die Zugangsdaten einsehen. Sie haben auch die Möglichkeit, die Backup-Option zu aktivieren und vorhandene Datenbank-Backups zu importieren.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
@@ -183,33 +166,33 @@ Neben unseren Gameserver-Produkten bieten wir auch 10 inklusive Datenbanken an. 
 
 ### Backups
 
-Unter **Backups** hast du die Möglichkeit, sowohl manuelle als auch automatische Backups für deinen Server und die zugehörige Datenbank zu erstellen. Dies erleichtert die Wiederherstellung deiner Daten im Falle von Problemen oder Datenverlust.
+Unter **Backups** haben Sie die Möglichkeit, sowohl manuelle als auch automatische Backups für Ihren Server und die zugehörige Datenbank zu erstellen. Dies erleichtert die Wiederherstellung Ihrer Daten im Falle von Problemen oder Datenverlust.
 
-In den Einstellungen kannst du festlegen, ob Backups automatisch erstellt werden sollen und ob dies täglich oder wöchentlich geschehen soll. Zusätzlich kannst du entscheiden, ob bei Bedarf die ältesten Backups gelöscht werden sollen, beispielsweise wenn der verfügbare Speicherplatz knapp wird.
+In den Einstellungen können Sie festlegen, ob Backups automatisch erstellt werden sollen und ob dies täglich oder wöchentlich geschehen soll. Darüber hinaus können Sie entscheiden, ob die ältesten Backups bei Bedarf gelöscht werden sollen, z. B. wenn der verfügbare Speicherplatz begrenzt wird.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
-Für unsere Gameserver-Produkte stellen wir standardmäßig 10 GB Speicherplatz auf dem Speicher-Server für Backups zur Verfügung. Wenn du mehr Speicherplatz benötigst, kann dieser gegen Gebühr erweitert werden. So stellst du sicher, dass du immer genügend Platz für deine Backups hast und bei Bedarf auch auf ältere Backups zugreifen kannst.
+Standardmäßig stellen wir 10 GB Speicherplatz auf dem Speicherserver für Backups unserer Spielserverprodukte zur Verfügung. Wenn Sie mehr Speicherplatz benötigen, kann dieser gegen Gebühr aufgerüstet werden. So stellen Sie sicher, dass Sie immer genügend Platz für Ihre Backups haben und bei Bedarf auch auf ältere Backups zugreifen können.
 
 ## Weitere Links
-Im Bereich **Weitere Links** findest du zusätzliche Links, die für dein Produkt relevant sind. 
+Im Abschnitt **Weitere Links** finden Sie weitere Links, die für Ihr Produkt relevant sind. 
 
 ### Häufig gestellte Fragen
-Der Bereich **Häufig gestellte Fragen** bietet eine Übersicht der am häufigsten gestellten Fragen unserer Kunden. Hier findest du hilfreiche Antworten und detaillierte Informationen zu verschiedenen Themen, die dir schnell und effizient weiterhelfen.
+Der Abschnitt **Häufig gestellte Fragen** bietet einen Überblick über die am häufigsten gestellten Fragen unserer Kunden. Hier finden Sie hilfreiche Antworten und detaillierte Informationen zu verschiedenen Themen, die Ihnen helfen, schnell und effizient zu sein.
 
-### ZAP-Hosting Dokumentation
-Wir bieten umfangreiche Dokumentationen zu unseren Produkten an, die als Wissensdatenbank für die häufigsten Fragen und Anliegen dienen. Dort findest du verschiedene Anleitungen und Hilfen zu unterschiedlichen Themen, die dich bei der Nutzung und Verwaltung deines Produkts unterstützen.
+### ZAP-Hosting-Dokumentation
+Wir bieten umfangreiche Dokumentationen für unsere Produkte an, die als Wissensdatenbank für die häufigsten Fragen und Anliegen dient. Dort finden Sie verschiedene Leitfäden und Hilfen zu unterschiedlichen Themen, die Ihnen bei der Nutzung und Verwaltung Ihres Produkts helfen.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
 ### Neuigkeiten
-Die **Neuigkeiten** bieten dir eine umfassende Übersicht aller Ankündigungen und News rund um deinen Service. Hier findest du wichtige Informationen zu verschiedenen Aspekten wie:
+Die **Neuigkeiten** bieten Ihnen einen umfassenden Überblick über alle Ankündigungen und Nachrichten zu Ihrem Dienst. Hier finden Sie wichtige Informationen zu verschiedenen Aspekten wie:
 
-- Änderungen des Services, zum Beispiel durch Updates oder neue Features
-- Ankündigungen zu möglichen Wartungen oder technischen Problemen
-- Sonderangebote und Aktionen, die dir exklusive Vorteile oder Rabatte bieten
-- Weitere relevante Informationen, die für die Nutzung deines Services wichtig sein können
+- Änderungen des Dienstes, beispielsweise durch Updates oder neue Funktionen
+- Ankündigungen über mögliche Wartungsarbeiten oder technische Probleme
+- Sonderangebote und Aktionen, die Ihnen exklusive Vorteile oder Rabatte bieten
+- Weitere relevante Informationen, die für die Nutzung Ihres Dienstes von Bedeutung sein könnten
 
-Indem du die **Neuigkeiten** regelmäßig prüfst, bleibst du informiert und kannst deinen Service entsprechend anpassen, um das Beste aus deinem Server herauszuholen.
+Durch regelmäßige Überprüfung der **Neuigkeiten** bleiben Sie informiert und können Ihren Dienst entsprechend anpassen, um das Beste aus Ihrem Server herauszuholen.
 
 <InlineVoucher />
