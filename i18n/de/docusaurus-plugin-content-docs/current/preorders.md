@@ -2,7 +2,7 @@
 id: preorders
 title: Vorbestellungen
 description: Informationen zu Vorbestellungen bei ZAP-Hosting. Was sind Vorbestellungen? Wann werden Server eingerichtet? Können Vorbestellungen storniert werden? - ZAP-Hosting.com Dokumentation
-sidebar_label: Preorders
+sidebar_label: Vorbestellungen
 ---
 
 
@@ -34,6 +34,6 @@ Die erste Laufzeit eines vorbestellten Produkts muss direkt bei der Bestellung b
 
 
 ## Stornierung Ihres vorbestellten Produkts
-Für vorbestellte Server, die noch nicht eingerichtet wurden und weiterhin als Vorbestellung bestellt werden können, wird der bereits gezahlte Betrag erstattet. Dazu genügt es, unseren Support zu kontaktieren.
+Für vorbestellte Server, die noch nicht eingerichtet wurden und weiterhin als Vorbestellung bestellt werden können, wird der bereits gezahlte Betrag erstattet. Dafür reicht es aus, unseren Support zu kontaktieren.
 
 Jetzt mehr Power holen! Dies ist ein neuer Test. Lass uns wohl einen neuen Test machen.
