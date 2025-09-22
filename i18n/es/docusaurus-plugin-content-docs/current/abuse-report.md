@@ -1,22 +1,24 @@
 ---
 id: abuse-report
-title: "Reportar abuso y contenido ilegal - ¡Todo lo que necesitas saber!"
-description: "Cómo reportar abuso y contenido ilegal a ZAP-Hosting - Documentación de ZAP-Hosting.com"
-sidebar_label: Reportar abuso
+title: "¡Reporta abusos y contenido ilegal - Todo lo que necesitas saber!"
+description: "Cómo reportar abusos y contenido ilegal a ZAP-Hosting - Documentación de ZAP-Hosting.com"
+sidebar_label: Reportar Abuso
 ---
 
 ## Introducción
 
-Internet genera valor. El abuso perjudica a los usuarios y servicios. Nuestro objetivo es detectar y detener incidentes rápidamente. Puedes reportar sospechas de abuso a nuestro Equipo de Abuso. Revisamos cada reporte, preservamos evidencia, actuamos conforme a la ley aplicable y nuestras políticas, y notificamos a las autoridades competentes cuando es necesario. Otro test lol.
+Internet genera valor. El abuso perjudica a los usuarios y servicios. Nuestro objetivo es detectar y detener incidentes rápidamente. Puedes reportar sospechas de abuso a nuestro Equipo de Abuso. Revisamos cada reporte, preservamos evidencias, actuamos conforme a la ley aplicable y nuestras políticas, y notificamos a las autoridades competentes cuando es necesario. Otra prueba jaja. Supongo que una prueba más.
+
+
 
 ## Tipos de casos de abuso
 
-Hola, ¡mi nombre es! El abuso puede manifestarse de diferentes maneras. Reporta cualquier caso que encaje o esté cerca de las categorías siguientes:
+Hola, ¡mi nombre es! El abuso puede manifestarse de diferentes formas. Reporta cualquier caso que encaje o esté cerca de las categorías siguientes:
 
 <details>
   <summary>Spam</summary>
 
-Mensajes no solicitados o masivos enviados a través de nuestros sistemas o contenido alojado que activan filtros de spam. Las variantes incluyen spam por correo electrónico, spam en comentarios, spam de enlaces SEO y creación automatizada de cuentas. Proporciona mensajes de ejemplo, encabezados, IPs de remitentes y patrones de envío.
+Mensajes no solicitados o masivos enviados a través de nuestros sistemas o contenido alojado que activan filtros de spam. Variantes incluyen spam por correo electrónico, spam en comentarios, spam de enlaces SEO y creación automatizada de cuentas. Proporciona mensajes de ejemplo, encabezados, IPs de remitentes y patrones de envío.
 
 </details>
 
@@ -65,7 +67,7 @@ Contenido que viola la ley aplicable como propaganda extremista, amenazas, discu
 <details>
   <summary>Otros</summary>
 
-Abuso que no encaja en lo anterior pero que aún perjudica a usuarios o sistemas. Ejemplos incluyen alojamiento de malware, C2 de botnets, fraude y minería de criptomonedas no autorizada. Comparte hashes, URLs, patrones de C2 y anomalías en el uso de recursos.
+Abuso que no encaja en lo anterior pero que aún perjudica a usuarios o sistemas. Ejemplos incluyen alojamiento de malware, C2 de botnets, fraude y minería de criptomonedas no autorizada. Comparte hashes, URLs, patrones C2 y anomalías en el uso de recursos.
 
 </details>
 
@@ -79,7 +81,7 @@ Para asegurar un reporte completo y accionable, por favor proporciona detalles e
 
 ## Archivos aceptados y provisión
 
-Proporciona evidencia en formatos claros y de manera que podamos acceder a ella de forma confiable. Adjunta archivos pequeños a tu correo o aloja archivos grandes externamente. Adjunta archivos pequeños a medianos directamente. Prefiere formatos abiertos y sin modificar. Texto plano es mejor que capturas de pantalla de texto.
+Proporciona evidencia en formatos claros y de manera que podamos acceder a ella de forma confiable. Adjunta archivos pequeños a tu correo o aloja archivos grandes externamente. Adjunta archivos pequeños a medianos directamente. Prefiere formatos abiertos y sin modificaciones. Texto plano es mejor que capturas de pantalla de texto.
 
 Para archivos grandes, comparte un enlace de descarga estable. Debe ser accesible sin interacción o incluir credenciales claras. Indica el período de validez del enlace. Añade sumas de verificación para permitir la verificación de integridad.
 
@@ -91,11 +93,11 @@ Por seguridad, redacta cualquier secreto; si es necesario, coloca archivos en un
 
 ## Contacta con nosotros
 
-Envía tu reporte a `abuse@zap-hosting.com`. Es importante usar un asunto claro como `Reporte de abuso Phishing` o `Reporte de abuso DDoS`. Envía un correo por incidente. El ejemplo a continuación muestra una solicitud completa:
+Envía tu reporte a `abuse@zap-hosting.com`. Es importante usar un asunto claro como `Reporte de Abuso Phishing` o `Reporte de Abuso DDoS`. Envía un correo por incidente. El siguiente ejemplo muestra una solicitud completa:
 
 ```
 Para: abuse@zap-hosting.com
-Asunto: Reporte de abuso Fuerza Bruta (SSH)
+Asunto: Reporte de Abuso Fuerza Bruta (SSH)
 
 Ubicación:
 - IP objetivo: XXX.XX.XXX.XX
@@ -126,4 +128,4 @@ Extracto de log de ejemplo:
 
 Nuestro Equipo de Abuso procesa tu reporte lo más rápido posible y responde con prontitud. Revisamos el incidente y lo priorizamos según su gravedad.
 
-Según la revisión, tomamos acciones que incluyen notificación al cliente, suspensión temporal/permanente, eliminación del contenido reportado, preservación de evidencia y notificación a las autoridades competentes cuando es necesario.
+Según la revisión, tomamos acciones que incluyen notificación al cliente, suspensión temporal/permanente, eliminación del contenido reportado, preservación de evidencias y notificación a las autoridades competentes cuando sea necesario.

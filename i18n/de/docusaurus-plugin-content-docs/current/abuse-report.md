@@ -7,7 +7,7 @@ sidebar_label: Missbrauch melden
 
 ## Einführung
 
-Das Internet ermöglicht Wertschöpfung. Missbrauch schadet Nutzern und Diensten. Unser Ziel ist es, Vorfälle schnell zu erkennen und zu stoppen. Sie können vermuteten Missbrauch unserem Abuse-Team melden. Wir prüfen jeden Bericht, sichern Beweise, handeln nach geltendem Recht und unseren Richtlinien und benachrichtigen bei Bedarf die zuständigen Behörden. Noch ein Test lol.
+Das Internet ermöglicht Mehrwert. Missbrauch schadet Nutzern und Diensten. Unser Ziel ist es, Vorfälle schnell zu erkennen und zu stoppen. Sie können vermuteten Missbrauch unserem Abuse-Team melden. Wir prüfen jeden Bericht, sichern Beweise, handeln gemäß geltendem Recht und unseren Richtlinien und benachrichtigen bei Bedarf die zuständigen Behörden. Noch ein Test lol. Noch ein Test, schätze ich.
 
 ## Arten von Missbrauchsfällen
 
@@ -16,28 +16,28 @@ Hallo, mein Name ist! Missbrauch kann sich auf verschiedene Weise zeigen. Melden
 <details>
   <summary>Spam</summary>
 
-Unaufgeforderte oder massenhafte Nachrichten, die über unsere Systeme oder gehostete Inhalte gesendet werden und Spam-Filter auslösen. Varianten umfassen E-Mail-Spam, Kommentar-Spam, SEO-Link-Spam und automatisierte Kontoerstellung. Bitte stellen Sie Beispielnachrichten, Header, Absender-IP-Adressen und Versandmuster bereit.
+Unaufgeforderte oder massenhaft versendete Nachrichten über unsere Systeme oder gehostete Inhalte, die Spamfilter auslösen. Varianten umfassen E-Mail-Spam, Kommentar-Spam, SEO-Link-Spam und automatisierte Kontoerstellung. Bitte stellen Sie Beispielnachrichten, Header, Absender-IP-Adressen und Versandmuster bereit.
 
 </details>
 
 <details>
   <summary>Angriffe und DDoS</summary>
 
-Feindlicher Datenverkehr, der darauf abzielt, Dienste zu stören oder Systeme auszuspähen. Häufige Formen sind volumetrische L3/L4-Floods, HTTP Layer-7-Floods, Amplification, Brute-Force-Logins und aggressive Portscans. Indikatoren sind Spitzen bei PPS oder Mbps, erhöhte 4xx/5xx-Raten und wiederholte Authentifizierungsfehler von wechselnden Quellen.
+Feindlicher Datenverkehr, der darauf abzielt, Dienste zu stören oder Systeme zu testen. Häufige Formen sind volumetrische L3/L4-Floods, HTTP Layer-7-Floods, Amplification, Brute-Force-Logins und aggressive Portscans. Indikatoren sind Spitzen bei PPS oder Mbps, erhöhte 4xx/5xx-Raten und wiederholte Authentifizierungsfehler von wechselnden Quellen.
 
 </details>
 
 <details>
   <summary>Urheberrechts- und Markenrechtsverletzungen</summary>
 
-Unbefugte Verbreitung geschützter Werke oder missbräuchliche Verwendung eingetragener Marken. Varianten umfassen Piraterie-Spiegel, geknackte Downloads, Marken-Imitation und irreführende Domains. Bitte geben Sie das Werk, den Rechteinhaber, den genauen Ort und den Autorisierungsstatus an.
+Unbefugte Verbreitung geschützter Werke oder missbräuchliche Nutzung registrierter Marken. Varianten umfassen Piraterie-Spiegel, geknackte Downloads, Markenimitation und irreführende Domains. Bitte geben Sie das Werk, den Rechteinhaber, den genauen Ort und den Autorisierungsstatus an.
 
 </details>
 
 <details>
   <summary>Phishing</summary>
 
-Inhalte, die darauf ausgelegt sind, Zugangsdaten oder Zahlungsinformationen durch Nachahmung vertrauenswürdiger Marken zu erlangen. Varianten umfassen gefälschte Login-Portale, Rechnungstricks, QR- oder Anhangs-Lockmittel und MFA-Erschöpfung. Geben Sie die Zielmarke, Erfassungspunkte und Unterschiede zur legitimen Seite an.
+Inhalte, die darauf ausgelegt sind, Zugangsdaten oder Zahlungsinformationen durch Nachahmung vertrauenswürdiger Marken zu erlangen. Varianten umfassen gefälschte Login-Portale, Rechnungstricks, QR- oder Anhangs-Lockmittel und MFA-Fatigue. Geben Sie die Zielmarke, Erfassungspunkte und Unterschiede zur legitimen Seite an.
 
 </details>
 
@@ -58,34 +58,34 @@ Jegliches Material, das sexuelle Ausbeutung von Menschen darstellt. Null Toleran
 <details>
   <summary>Illegale Inhalte</summary>
 
-Inhalte, die geltendes Recht verletzen, wie extremistische Propaganda, Drohungen, Hassrede, Aufstachelung zu Gewalt oder Verleumdung. Varianten umfassen Doxxing, explizite Drohungen und von der Rechtsordnung verbotene Materialien. Bitte geben Sie den genauen Ort und, falls bekannt, die rechtliche Grundlage an.
+Inhalte, die geltendes Recht verletzen, wie extremistische Propaganda, Drohungen, Hassrede, Aufruf zu Gewalt oder Verleumdung. Varianten umfassen Doxxing, explizite Drohungen und von der Rechtsordnung verbotene Materialien. Bitte geben Sie den genauen Ort und, falls bekannt, die rechtliche Grundlage an.
 
 </details>
 
 <details>
   <summary>Sonstiges</summary>
 
-Missbrauch, der nicht in die oben genannten Kategorien passt, aber dennoch Nutzern oder Systemen schadet. Beispiele sind Malware-Hosting, Botnet-C2, Betrug und unautorisierte Kryptomining-Aktivitäten. Teilen Sie Hashes, URLs, C2-Muster und Auffälligkeiten bei der Ressourcennutzung mit.
+Missbrauch, der nicht in die oben genannten Kategorien passt, aber dennoch Nutzern oder Systemen schadet. Beispiele sind Malware-Hosting, Botnet-C2, Betrug und unautorisierte Kryptomining-Aktivitäten. Teilen Sie Hashes, URLs, C2-Muster und Anomalien bei der Ressourcennutzung mit.
 
 </details>
 
 ## Erforderliche Informationen
 
-Um einen vollständigen und verwertbaren Bericht sicherzustellen, geben Sie bitte umfassende Details an, die es uns ermöglichen, die Ressource zu identifizieren, den Vorfall zu verifizieren und die richtigen Maßnahmen zu ergreifen, einschließlich folgender Angaben:
+Um einen vollständigen und verwertbaren Bericht zu gewährleisten, geben Sie bitte umfassende Details an, die es uns ermöglichen, die Ressource zu identifizieren, den Vorfall zu verifizieren und die richtigen Maßnahmen zu ergreifen, einschließlich:
 - Ort: URL, IP, Port, Hostname, Dateipfad, Hash
 - Zeitstempel in UTC im Format JJJJ-MM-TTTHH:MM:SSZ
 - Beschreibung: Was ist passiert, wie entdeckt, beobachtete Auswirkungen
-- Beweise: Screenshots, Textprotokolle, vollständige E-Mails mit Headern als EML, kurze PCAPs, NetFlow, HTTP-Header
+- Beweise: Screenshots, Textprotokolle, vollständige E-Mails mit Headern als EML, kurze PCAP, NetFlow, HTTP-Header
 
 ## Akzeptierte Dateien und Bereitstellung
 
 Stellen Sie Beweise in klaren Formaten und so bereit, dass wir zuverlässig darauf zugreifen können. Fügen Sie kleinere Dateien Ihrer E-Mail bei oder hosten Sie große Dateien extern. Kleine bis mittelgroße Dateien bitte direkt anhängen. Bevorzugen Sie offene, unveränderte Formate. Rohtext ist besser als Screenshots von Text.
 
-Für große Dateien teilen Sie bitte einen stabilen Download-Link. Dieser sollte ohne Interaktion abrufbar sein oder klare Zugangsdaten enthalten. Geben Sie die Gültigkeitsdauer des Links an. Fügen Sie Prüfsummen zur Integritätsprüfung hinzu.
+Für große Dateien teilen Sie bitte einen stabilen Download-Link. Dieser sollte ohne Interaktion abrufbar sein oder klare Zugangsdaten enthalten. Geben Sie die Gültigkeitsdauer des Links an. Fügen Sie Prüfsummen hinzu, um die Integrität zu überprüfen.
 
-Verwenden Sie Standardformate wie TXT, PDF, PNG, JPG, PCAP oder PCAPNG, EML, HAR, CSV und JSON. Fügen Sie keine Passwörter, privaten Schlüssel oder vollständige persönliche Daten bei, sofern nicht unbedingt erforderlich.
+Verwenden Sie Standardformate wie TXT, PDF, PNG, JPG, PCAP oder PCAPNG, EML, HAR, CSV und JSON. Fügen Sie keine Passwörter, privaten Schlüssel oder vollständige persönliche Daten ein, es sei denn, dies ist unbedingt erforderlich.
 
-Für Qualität reichen Sie E-Mails als EML mit vollständigen Headern ein, Protokolle als Klartext, Netzwerkaufzeichnungen als kurze und relevante PCAP- oder PCAPNG-Captures und Screenshots in Originalauflösung ein.
+Für Qualität reichen Sie E-Mails als EML mit vollständigen Headern ein, Protokolle als Klartext, Netzwerktraces als kurze und relevante PCAP- oder PCAPNG-Aufzeichnungen und Screenshots in Originalauflösung ein.
 
 Zur Sicherheit schwärzen Sie alle Geheimnisse; falls nötig, legen Sie Dateien in ein passwortgeschütztes Archiv und teilen das Passwort separat mit. Bei CSAM/SAM senden Sie keine Dateien, sondern nur Links.
 
