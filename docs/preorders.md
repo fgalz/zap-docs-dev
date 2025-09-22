@@ -36,4 +36,4 @@ The 1st term of a pre-ordered product must be paid directly at the time of order
 ## Cancel your pre-ordered product
 For pre-ordered servers that have not yet been set up and can still be ordered as a pre-order, the amount already paid will be refunded. For this it is sufficient to contact our support.
 
-Get more power now!
+Get more power now! This is a new test. 
