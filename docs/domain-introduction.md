@@ -20,7 +20,7 @@ Are you looking for a domain at a fair price? Then ZAP-Hosting is the right plac
 
 ## Ordering
 
-The ordering process is very simple. Choose your desired configuration for your [Domain](https://zap-hosting.com/en/shop/product/domain/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration. More information about the exact ordering process can be found in our [Order Domain](domain-order.md) guide. 
+The ordering process is very simple. Choose your desired configuration for your [Domain](https://zap-hosting.com/en/shop/product/domain/). The setup time takes only a few seconds. Afterwards, you can immediately start with the configuration. More information about the exact ordering process can be found in our Order Domain guide. 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/FEN8gHSaL9i7X38/preview)
 
