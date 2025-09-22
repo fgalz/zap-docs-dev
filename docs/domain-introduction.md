@@ -13,7 +13,7 @@ import items from '@site/data/faqs/domain-introduction-en.json';
 
 ## Introduction
 
-Are you looking for a domain at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting, you can register your  domain to to individualize your web presence. You can for example use the domain for a website or as a forwarding for a game server or voice server service. 
+Are you looking for a domain at a fair price? Then ZAP-Hosting is the right place for you! At ZAP-Hosting, you can register your  domain to to individualize your web presence. You can for example use the domain for a website or as a forwarding for a game server or voice server service. Test 2
 
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/ESkLyeoLMTTENHG/preview)
