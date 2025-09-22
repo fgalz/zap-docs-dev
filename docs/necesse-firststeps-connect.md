@@ -13,7 +13,7 @@ import YouTube from '@site/src/components/YouTube/YouTube';
 import InlineVoucher from '@site/src/components/InlineVoucher';
 
 
-## Introduction
+## Introduction2
 Not sure how to connect to your **Necesse** server or what you need to get started? No worries, we’ve got you covered! We will walk you through everything you need – from the required tools and information to the actual connection process, along with key considerations to ensure a smooth and trouble-free connection experience. Follow our guide and you'll be connected in no time!
 
 <InlineVoucher />
@@ -41,7 +41,7 @@ The connection to a game server can often be established in one or more ways. Av
 <Tabs>
     <TabItem value="connect_solution_server_browser_ingame" label="Server Browser (In game)" default>
 
-To connect to your server, open the game and navigate to **Multiplayer** in the main menu. Next, click on **Add Server** and enter a name and the IP address and port of your server. Confirm the entry with the **Add** button. 
+To connect to your server, open the game and navigate to **Multiplayer** in the main menu. Next, click on **Add Server** and enter a name and the IP address and port of your server. Confirm the entry with the **Add** button. 
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/RdRbc92X2znNE7q/download)
 
