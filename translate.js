@@ -44,7 +44,7 @@ async function translateContent(content, targetLang) {
     messages: [
       {
         role: 'system',
-        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate visible text. Do not translate metadata ids. Prefer industry-standard and commonly used technical terms over literal translations, and ensure terminology consistency throughout the document. Ensure consistency with terminology commonly used in the gaming and hosting industry.`
+        content: "You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate visible text. Do not translate metadata ids. Always prefer industry-standard terminology and expressions commonly used in the gaming and hosting industry, aligned with the style and terminology used by ZAP-Hosting."
       },
       {
         role: 'user',
