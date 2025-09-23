@@ -10,11 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import Button from '@site/src/components/Button';
 
-## Introduction2
+## Introduction234
 
-Configurer et faire fonctionner votre propre serveur de jeu Necesse peut être excitant et très amusant. Bien que cela puisse être un excellent moyen de créer un environnement de jeu personnalisé et une communauté, cela signifie également assumer la responsabilité lorsque les choses tournent mal. Les plantages, le lag et les problèmes de configuration sont des problèmes courants que chaque propriétaire de serveur peut rencontrer à un moment donné.
+Configurer et faire fonctionner votre propre serveur de jeu Necesse peut être passionnant et très amusant. Bien que cela puisse être un excellent moyen de créer un environnement de jeu personnalisé et une communauté, cela signifie également assumer la responsabilité lorsque les choses tournent mal. Les plantages, le lag et les problèmes de configuration sont des problèmes courants que chaque propriétaire de serveur peut rencontrer à un moment donné.
 
-Pour vous assurer que vous passez moins de temps à réparer et plus de temps à profiter de votre serveur, cette section met en évidence les problèmes les plus courants auxquels les propriétaires de serveurs sont confrontés et fournit des solutions pour vous aider à les résoudre rapidement et efficacement.
+Pour vous assurer de passer moins de temps à réparer et plus de temps à profiter de votre serveur, cette section met en évidence les problèmes les plus courants auxquels les propriétaires de serveurs sont confrontés et fournit des solutions pour vous aider à les résoudre rapidement et efficacement.
 
 
 <InlineVoucher />
@@ -23,29 +23,29 @@ Pour vous assurer que vous passez moins de temps à réparer et plus de temps à
 
 ## Problèmes et solutions
 
-La cause des problèmes de serveur peut varier et n'est souvent pas immédiatement évidente. Apprenez à résoudre les problèmes typiques étape par étape et à garder tout en bon état de fonctionnement.
+La cause des problèmes de serveur peut varier et n'est souvent pas immédiatement évidente. Apprenez à résoudre les problèmes typiques étape par étape et à maintenir tout en bon état de fonctionnement.
 
 ### Général
-Les problèmes généraux peuvent inclure toutes sortes de problèmes inattendus qui ne rentrent pas dans une catégorie spécifique. Ils sont souvent liés aux paramètres de base, aux fichiers manquants ou à de simples erreurs de configuration. Ceux-ci peuvent généralement être corrigés rapidement avec quelques vérifications et ajustements.
+Les problèmes généraux peuvent inclure toutes sortes de problèmes inattendus qui ne rentrent pas dans une catégorie spécifique. Ils sont souvent liés à des paramètres de base, des fichiers manquants ou des erreurs de configuration simples. Ceux-ci peuvent généralement être corrigés rapidement avec quelques vérifications et ajustements.
 
 <details>
   <summary>Serveur non visible</summary>
 
-Un manque de visibilité du serveur peut se produire si l'initialisation n'a pas été complétée avec succès. Cela peut par exemple être dû à une configuration défectueuse ou à des fichiers corrompus. Des informations supplémentaires peuvent généralement être retracées dans la console du serveur ou dans les fichiers journaux. En dehors de cela, il convient de s'assurer qu'aucun paramètre de filtre incorrect n'est utilisé dans la liste des serveurs, ce qui empêcherait l'affichage du serveur.
+Un manque de visibilité du serveur peut se produire si l'initialisation n'a pas été complétée avec succès. Cela peut par exemple être dû à une configuration défectueuse ou à des fichiers corrompus. Des informations supplémentaires peuvent généralement être trouvées dans la console du serveur ou dans les fichiers journaux. En dehors de cela, il convient de s'assurer qu'aucun paramètre de filtre incorrect n'est utilisé dans la liste des serveurs, ce qui empêcherait l'affichage du serveur.
 
 </details>
 
 
 ### Plantages
 
-Rien ne perturbe une bonne session plus rapidement qu'un crash inattendu. Les plantages peuvent être causés par un logiciel de serveur défectueux, des extensions cassées ou incompatibles (comme des plugins, mods, ressources ou frameworks), une surcharge du système ou des erreurs de configuration. 
+Rien ne perturbe une bonne session plus rapidement qu'un plantage inattendu. Les plantages peuvent être causés par un logiciel serveur défectueux, des extensions cassées ou incompatibles (comme des plugins, mods, ressources ou frameworks), une surcharge système ou des erreurs de configuration. 
 
 <details>
   <summary>Maintenir votre serveur à jour</summary>
 
 Faire fonctionner votre serveur de jeu sur la dernière version est essentiel pour la stabilité, la sécurité et la compatibilité. Les mises à jour de jeu, les changements de framework ou les modifications des outils tiers peuvent entraîner des problèmes graves si la version de votre serveur est obsolète.
 
-Un serveur de jeu obsolète peut connaître des plantages, un comportement inattendu ou même échouer à démarrer complètement.
+Un serveur de jeu obsolète peut subir des plantages, un comportement inattendu ou même ne pas démarrer du tout.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JXLHyHeMJqErHLJ/preview)
 
@@ -55,21 +55,21 @@ Un serveur de jeu obsolète peut connaître des plantages, un comportement inatt
 <details>
   <summary>Extensions défectueuses/problématiques (Frameworks, Plugins, Mods, Ressources)</summary>
 
-Les plantages peuvent souvent être causés par des extensions défectueuses ou obsolètes. Que ce soit un framework, un plugin, un mod ou une ressource, des problèmes peuvent survenir si une extension n'est pas compatible avec la dernière version du jeu ou contient des bugs dans son code.
+Les plantages peuvent souvent être causés par des extensions défectueuses ou obsolètes. Que ce soit un framework, un plugin, un mod ou une ressource, des problèmes peuvent survenir si une extension n'est pas compatible avec la dernière version du jeu ou contient des bogues dans son code.
 
 Cela peut entraîner des plantages inattendus du serveur, des gels ou des erreurs, surtout lorsque plusieurs extensions problématiques interagissent. Si vous soupçonnez qu'une extension est la cause, essayez de la désactiver temporairement et vérifiez si votre serveur reste stable sans elle. C'est un moyen simple d'identifier quelle extension crée des problèmes.
 
 Assurez-vous que toutes les extensions que vous utilisez sont à jour, activement maintenues et testées pour la compatibilité avec la version actuelle de votre jeu afin d'éviter les plantages et les temps d'arrêt.
 
-Pour isoler la cause profonde des problèmes de plantage, il est souvent utile de désactiver temporairement du contenu supplémentaire. Commencez avec une configuration minimale et vérifiez si le problème persiste. Si le problème disparaît, réintroduisez progressivement les extensions, mods ou ressources un par un en testant après chaque étape. Cette approche incrémentale aide à identifier l'élément spécifique qui cause des problèmes. Cette méthode permet non seulement de réduire efficacement les coupables potentiels, mais garantit également que votre dépannage est basé sur des preuves plutôt que sur des suppositions.
+Pour isoler la cause profonde des problèmes de plantage, il est souvent utile de désactiver temporairement du contenu supplémentaire. Commencez avec une configuration minimale et vérifiez si le problème persiste. Si le problème disparaît, réintroduisez progressivement les extensions, mods ou ressources un par un en testant après chaque étape. Cette approche incrémentale aide à identifier l'élément spécifique qui cause des problèmes. Cette méthode non seulement réduit efficacement les coupables potentiels, mais garantit également que votre dépannage est basé sur des preuves plutôt que sur des hypothèses.
 
 </details>
 
 ### Performance
 
-Une performance fluide du serveur est essentielle pour une bonne expérience de jeu. Des problèmes tels que le lag, les retards ou les plantages soudains se produisent souvent lorsque la configuration du serveur n'est pas optimale, que le matériel ne correspond pas aux exigences du jeu ou que les extensions installées surchargent le système.
+Une performance fluide du serveur est essentielle pour une bonne expérience de jeu. Des problèmes tels que le lag, les retards ou les plantages soudains surviennent souvent lorsque la configuration du serveur n'est pas optimale, que le matériel ne correspond pas aux exigences du jeu ou que les extensions installées surchargent le système.
 
-Les raisons typiques incluent une mauvaise configuration, des ressources manquantes ou des plugins et mods non optimisés. Vérifier et ajuster ces domaines aide à résoudre la plupart des problèmes liés à la performance et à garder votre jeu stable et réactif.
+Les raisons typiques incluent une mauvaise configuration, des ressources manquantes ou des plugins et mods non optimisés. Vérifier et ajuster ces domaines aide à résoudre la plupart des problèmes liés à la performance et maintient votre jeu stable et réactif.
 
 <details>
   <summary>Mauvaise configuration du serveur</summary>
@@ -81,7 +81,7 @@ Vous pouvez modifier votre configuration via les paramètres disponibles dans la
 </details>
 
 <details>
-  <summary>Ne répond pas aux exigences du jeu</summary>
+  <summary>Non-respect des exigences du jeu</summary>
 
 Pour garantir que votre serveur de jeu fonctionne de manière fluide et fiable, il est essentiel de choisir une configuration qui correspond aux besoins de votre projet prévu. Les exigences peuvent varier considérablement en fonction du jeu, de l'utilisation d'extensions telles que des mods, des plugins ou des ressources, et du nombre de joueurs attendu.
 
@@ -98,13 +98,13 @@ En fonction de l'ampleur de votre projet et de la quantité de contenu suppléme
 <details>
   <summary>Extensions non optimisées (Frameworks, Plugins, Mods, Ressources)</summary>
 
-Toutes les extensions ne sont pas créées en tenant compte de la performance. Que ce soit un framework, un plugin, un mod ou une ressource, une mauvaise mise en œuvre peut entraîner des problèmes de performance significatifs sur votre serveur. Dans de nombreux cas, la fonctionnalité prévue peut fonctionner, mais la manière dont elle est exécutée est inefficace, trop complexe ou cause une charge inutile sur les ressources du serveur.
+Toutes les extensions ne sont pas créées avec la performance à l'esprit. Que ce soit un framework, un plugin, un mod ou une ressource, une mauvaise mise en œuvre peut entraîner des problèmes de performance significatifs sur votre serveur. Dans de nombreux cas, la fonctionnalité prévue peut fonctionner, mais la manière dont elle est exécutée est inefficace, trop complexe ou cause une charge inutile sur les ressources du serveur.
 
 Cela peut entraîner une utilisation élevée du CPU, des fuites de mémoire, du lag ou même des plantages, surtout lorsque plusieurs composants non optimisés interagissent. Assurez-vous toujours que les extensions sont activement maintenues, bien documentées et testées pour la performance. En cas de doute, consultez les retours de la communauté ou surveillez la performance du serveur pour identifier les éléments problématiques.
 
 Pour isoler la cause profonde des problèmes de performance, il est souvent utile de désactiver temporairement du contenu supplémentaire. Commencez avec une configuration minimale et vérifiez si le problème persiste. Si le problème disparaît, réintroduisez progressivement les extensions, mods ou ressources un par un en testant après chaque étape. Cette approche incrémentale aide à identifier l'élément spécifique qui cause des problèmes, qu'il s'agisse d'un conflit, d'une fuite de mémoire ou d'une utilisation excessive des ressources.
 
-Cette méthode permet non seulement de réduire efficacement les coupables potentiels, mais garantit également que votre dépannage est basé sur des preuves plutôt que sur des suppositions.
+Cette méthode non seulement réduit efficacement les coupables potentiels, mais garantit également que votre dépannage est basé sur des preuves plutôt que sur des hypothèses.
 
 </details>
 
@@ -120,7 +120,7 @@ Les pics de ping, le lag et les retards réseau sont généralement le résultat
 
 Ils peuvent également se produire lorsque le serveur est surchargé par un nombre élevé de joueurs ou des scripts et plugins gourmands en ressources. Les problèmes liés au réseau, tels qu'un routage médiocre, une surcharge externe ou l'hébergement du serveur loin de la base de joueurs, peuvent également augmenter la latence. 
 
-De plus, les processus en arrière-plan, les connexions Internet instables, la perte de paquets et les logiciels de serveur obsolètes ou mal configurés peuvent tous contribuer à des problèmes de performance notables pendant le jeu.
+De plus, les processus en arrière-plan, les connexions Internet instables, la perte de paquets et un logiciel serveur obsolète ou mal configuré peuvent tous contribuer à des problèmes de performance notables pendant le jeu.
 
 Si vous rencontrez du lag ou un ping élevé sur votre serveur, il existe quelques étapes simples que vous pouvez suivre pour améliorer la performance. Tout d'abord, assurez-vous que votre serveur répond ou dépasse les spécifications recommandées pour votre jeu et votre projet. Choisir un emplacement de serveur proche de votre base de joueurs peut également aider à réduire la latence.
 
@@ -132,9 +132,9 @@ Si vous soupçonnez que des problèmes de routage ou des problèmes de réseau e
 <details>
   <summary>DDoS et autres menaces réseau</summary>
 
-Les serveurs de jeu peuvent parfois devenir des cibles d'activités réseau malveillantes, notamment des attaques par déni de service distribué (DDoS). Ces attaques inondent le serveur de trafic excessif, provoquant du lag, des pertes de connexion ou même un temps d'arrêt complet. Dans d'autres cas, les attaquants peuvent tenter d'exploiter des vulnérabilités réseau ou de perturber la stabilité du serveur par des tentatives de connexion répétées ou des modèles de données inhabituels.
+Les serveurs de jeu peuvent parfois devenir des cibles d'activités réseau malveillantes, notamment des attaques par déni de service distribué (DDoS). Ces attaques inondent le serveur avec un trafic excessif, provoquant du lag, des pertes de connexion ou même un temps d'arrêt complet. Dans d'autres cas, les attaquants peuvent tenter d'exploiter des vulnérabilités réseau ou de perturber la stabilité du serveur par des tentatives de connexion répétées ou des modèles de données inhabituels.
 
-Bien que la plupart de ces menaces échappent au contrôle de l'utilisateur moyen, ZAP-Hosting fournit des systèmes de protection et de mitigation intégrés pour protéger votre serveur contre les attaques courantes et avancées. Si vous soupçonnez que votre serveur est ciblé et que cela cause des problèmes, contactez notre équipe de support pour obtenir de l'aide et des conseils supplémentaires.
+Bien que la plupart de ces menaces soient hors du contrôle de l'utilisateur moyen, ZAP-Hosting fournit des systèmes de protection et d'atténuation intégrés pour protéger votre serveur contre les attaques courantes et avancées. Si vous soupçonnez que votre serveur est ciblé et que cela cause des problèmes, contactez notre équipe de support pour obtenir de l'aide et des conseils supplémentaires.
 
 </details>
 
