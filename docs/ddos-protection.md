@@ -13,7 +13,7 @@ Our DDoS protection systems operate automatically and in real-time, filtering ma
 
 ## DDoS Protection Solutions
 
-Different DDoS protection systems are deployed at ZAP-Hosting depending on the geographical location and network infrastructure of the respective data center. Each site is equipped with a mitigation solution that is specifically chosen to provide the best balance of performance, reliability, and responsiveness against attack patterns commonly performed
+Different DDoS protection systems are deployed at ZAP-Hosting depending on the geographical location and network infrastructure of the respective data center. Each site is equipped with a mitigation solution that is specifically chosen to provide the best balance of performance, reliability, and responsiveness against attack patterns commonly performed. This our new test. 
 <details>
   <summary>PletX</summary>
 
