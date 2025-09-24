@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build-docusaurus:
-    if: github.event.label.name == 'Approved'
+    if: github.event.label.name == 'BUILD PERMISSION'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR branch
