@@ -11,9 +11,9 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 ## Introduction
 
-Tu t’intéresses à un **serveur Necesse** ou tu en possèdes déjà un, mais tu manques encore d’une vue d’ensemble complète de l’administration et de la localisation de toutes les options nécessaires ? Surtout au début, ça peut être un vrai défi. Mais t’inquiète, on te propose ci-dessous une introduction détaillée à l’administration de ton service, pour que tu aies la meilleure vue d’ensemble possible.
+Tu t’intéresses à un **serveur de jeu Necesse** ou tu en possèdes déjà un, mais tu manques encore d’une vue d’ensemble complète de l’administration et de la localisation de toutes les options nécessaires ? Surtout au début, ça peut être un vrai défi. Pas de panique, on te propose ci-dessous une introduction détaillée à l’administration de ton service, pour que tu aies la meilleure vue d’ensemble possible.
 
-Après avoir parcouru ce guide, tu pourras gérer ton serveur facilement et trouver toutes les options et fonctionnalités nécessaires rapidement et sans prise de tête. Ici, tu auras un aperçu structuré qui t’aidera pas à pas à te familiariser avec l’administration du serveur et à approfondir tes connaissances de manière ciblée. Comme ça, tu pourras t’assurer que ton **serveur Necesse** est parfaitement adapté à tes besoins et que tu tires le meilleur parti des options disponibles.
+Après avoir parcouru ce guide, tu pourras gérer ton serveur facilement et trouver toutes les options et fonctionnalités nécessaires rapidement et sans prise de tête. Ici, tu auras un aperçu structuré qui t’aidera pas à pas à te familiariser avec l’administration du serveur et à approfondir tes connaissances de manière ciblée. Comme ça, tu peux t’assurer que ton **serveur de jeu Necesse** est parfaitement adapté à tes besoins et que tu tires le meilleur parti des options disponibles. Yeah !
 
 <InlineVoucher />
 
@@ -40,7 +40,7 @@ Dans le tableau de bord, tu as aussi la possibilité de démarrer, arrêter ou r
 
 
 
-Consulte les attaques DDoS passées pour mieux évaluer les menaces potentielles et les schémas. Active les notifications pour les attaques DDoS en cours sur ton serveur afin de réagir rapidement en cas d’incident.
+Consulte les attaques DDoS passées pour mieux évaluer les menaces potentielles et les schémas récurrents. Active les notifications pour les attaques DDoS en cours sur ton serveur afin de réagir rapidement en cas d’incident.
 
 Selon la localisation du serveur et la protection DDoS disponible, tu peux aussi surveiller les attaques actives en temps réel. Cela inclut des analyses détaillées du trafic, montrant à la fois le trafic légitime et la quantité de trafic bloquée par les systèmes de mitigation. Ce niveau de transparence t’aide à comprendre comment la protection fonctionne et te permet d’identifier les risques potentiels rapidement.
 
@@ -67,7 +67,7 @@ Un problème technique survient et tu ne sais pas d’où ça vient ? Une premi�
 Les messages d’erreur en particulier peuvent aider à identifier et mieux comprendre la cause d’un problème. Souvent, les difficultés peuvent être décelées et résolues en jetant un œil ciblé aux fichiers journaux.
 
 :::warning
-Les infos trouvées ne t’aident pas ou tu ne comprends rien ? Pas de panique ! Dans ce cas, notre support est dispo tous les jours. Crée simplement un **[ticket](https://zap-hosting.com/en/customer/support/)** et explique-nous ton problème. On le regardera au plus vite et on t’aidera à résoudre ça ! :)
+Les infos trouvées ne t’aident pas ou tu ne les comprends pas ? Pas de souci ! Dans ce cas, notre support est dispo tous les jours. Crée simplement un **[ticket](https://zap-hosting.com/en/customer/support/)** et explique-nous ton problème. On le regardera au plus vite et t’aidera à résoudre ça ! :)
 :::
 
 
@@ -81,11 +81,11 @@ Le **Journal des événements** te donne une vue complète de toutes les activit
 
 ### Interruptions de service
 
-Ton serveur a été hors ligne temporairement et tu ne comprends pas pourquoi ? Un coup d’œil dans le journal des événements et les fichiers journaux n’a rien donné non plus ? Il se peut que la cause du problème ne vienne pas directement de ton serveur, mais du système hôte sur lequel ton serveur est hébergé.
+Ton serveur a été temporairement hors ligne et tu ne comprends pas pourquoi ? Un coup d’œil dans le journal des événements et les fichiers journaux n’a rien donné non plus ? Il se peut que la cause du problème ne vienne pas directement de ton serveur, mais du système hôte sur lequel ton serveur est hébergé.
 
 Si notre système de monitoring détecte une interruption générale, nos techniciens sont automatiquement alertés et s’occupent du problème au plus vite.
 
-Dans cette section, tu trouveras un historique des interruptions du système hôte sur lequel ton serveur de jeu est hébergé. Plus d’infos et la dernière version de notre statut de service sont dispo sur notre nouvelle [page de statut](https://status.zap-hosting.com/).
+Dans cette section, tu trouveras un historique des interruptions du système hôte sur lequel ton serveur de jeu est hébergé. Tu peux aussi consulter plus d’infos et la dernière version de notre statut de service sur notre nouvelle [page de statut](https://status.zap-hosting.com/).
 
 
 
@@ -106,26 +106,26 @@ Dans la section **Paramètres**, tu trouveras toutes les pages nécessaires pour
 
 ### Paramètres
 
-Dans les paramètres, tu trouveras un aperçu des options de configuration les plus courantes pour ton serveur. Elles sont accompagnées d’une courte explication. L’utilisation de la page des paramètres est particulièrement recommandée aux débutants en administration serveur.
+Dans les paramètres, tu trouveras un aperçu des options de configuration les plus courantes pour ton serveur. Elles sont accompagnées d’une courte explication. L’utilisation de la page des paramètres est particulièrement recommandée aux débutants en administration de serveur.
 
-Si tu es plus à l’aise et que tu souhaites faire des modifications plus précises, on te conseille plutôt d’utiliser l’Éditeur de Config. Tu trouveras plus d’infos à ce sujet dans la catégorie **Configs**.
+Si tu es plus à l’aise et que tu veux faire des modifications plus précises, on te conseille d’utiliser plutôt l’Éditeur de Config. Tu trouveras plus d’infos à ce sujet dans la catégorie **Configs**.
 
 
 
 ### Configs
 
-L’éditeur de fichiers de config te permet d’éditer directement les fichiers de configuration depuis le site, à l’ancienne, sans la vue simplifiée. Cette option te permet de personnaliser les réglages de ton serveur et de les configurer selon tes préférences perso.
+L’éditeur de fichiers de config te permet de modifier directement les fichiers de configuration depuis le site, à l’ancienne, sans la vue simplifiée. Cette option te permet de personnaliser les réglages de ton serveur selon tes préférences perso.
 
 En utilisant l’éditeur, tu as un accès direct à toutes les options disponibles et tu peux les ajuster précisément. C’est particulièrement utile pour les utilisateurs avancés qui veulent un contrôle total sur les réglages de leur serveur et savent exactement ce qu’ils veulent modifier.
 
 :::warning
-Tu as remarqué que certaines de tes modifications sont partiellement écrasées ? Sache que certaines valeurs d’option sont prises depuis la page des paramètres. Si tu veux modifier ces valeurs directement dans la config, tu dois d’abord désactiver les options concernées sur la page des paramètres.
+Tu as remarqué que certaines de tes modifications sont partiellement écrasées ? Sache que certaines valeurs d’option sont prises depuis la page des paramètres. Si tu veux modifier ces options directement dans la config, tu dois d’abord désactiver les options concernées sur la page des paramètres.
 :::
 
 
 ### Jeux
 
-Sous **Jeux**, tu as toujours la possibilité de changer la variante de jeu de ton jeu existant ou d’installer un autre jeu en général. Les jeux avec le même prix par slot peuvent être sélectionnés directement sous **Jeux disponibles**. Pour tous les autres jeux, un ajustement du prix par slot est nécessaire d’abord. Plus d’infos à ce sujet dans le guide Changement de jeu.
+Sous **Jeux**, tu as toujours la possibilité de changer la variante de jeu de ton jeu existant ou d’installer un autre jeu en général. Les jeux avec le même prix par slot peuvent être sélectionnés directement sous **Jeux disponibles**. Pour tous les autres jeux, un ajustement du prix par slot est nécessaire au préalable. Plus d’infos à ce sujet dans le guide de changement de jeu.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/xkkECw7o52fAMWk/preview)
 
@@ -133,11 +133,11 @@ Sous **Jeux**, tu as toujours la possibilité de changer la variante de jeu de t
 
 ### Versions
 
-Sous **Versions**, tu peux consulter et gérer la version actuelle de ton serveur de jeu. Ici, tu peux mettre à jour vers la dernière version à tout moment ou activer les mises à jour automatiques pour que ton serveur soit toujours à jour.
+Sous **Versions**, tu peux voir et gérer la version actuelle de ton serveur de jeu. Tu peux mettre à jour vers la dernière version à tout moment ou activer les mises à jour automatiques pour que ton serveur soit toujours à jour.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/BH2JzyRHTeLdKHz/preview)
 
-En plus, tu peux aussi activer la notification par email pour les mises à jour automatiques afin de rester informé et toujours à la page.
+En plus, tu peux aussi activer la notification par e-mail pour les mises à jour automatiques afin de rester informé et toujours à la page.
 
 
 
@@ -157,25 +157,25 @@ Tu veux programmer des redémarrages du serveur à des horaires précis ? Le Pla
 
 ## Outils
 
-Dans la section **Outils** de ton panneau de navigation, tu trouveras plusieurs sous-menus qui t’aideront à gérer ton serveur. Parmi eux, il y a **Navigateur FTP**, **Bases de données** et **Backups**. Ci-dessous, tu auras une introduction détaillée à ces différents domaines.
+Dans la section **Outils** de ton panneau de navigation, tu trouveras plusieurs sous-menus qui t’aideront à gérer ton serveur. Parmi eux, il y a **Navigateur FTP**, **Bases de données** et **Backups**. Voici une introduction détaillée à ces différents domaines.
 
 
 
 ### Navigateur FTP
 
-Avec le **Navigateur FTP**, tu obtiens toutes les infos nécessaires pour établir une connexion FTP. L’accès FTP te permet un accès direct aux fichiers de ton serveur de jeu. On recommande d’utiliser un programme FTP externe comme **Filezilla** ou **WinSCP** pour une utilisation optimale. Si tu ne connais pas FTP, on te conseille de jeter un œil à notre guide d’accès FTP qui pourra t’aider.
+Avec le **Navigateur FTP**, tu obtiens toutes les infos nécessaires pour établir une connexion FTP. L’accès FTP te permet un accès direct aux fichiers de ton serveur de jeu. On recommande d’utiliser un programme FTP externe comme **Filezilla** ou **WinSCP** pour une utilisation optimale. Si tu ne connais pas bien FTP, on te conseille de jeter un œil à notre guide d’accès FTP qui pourra t’aider.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/sX85i9HyzR9wmAM/preview)
 
 **FileZilla :** FileZilla est probablement le client FTP le plus simple et connu. Installe-le, lance-le et entre tes identifiants dans la barre en haut, que tu trouveras un peu plus haut sur cette page. Après un clic rapide sur « Connecter », tu es directement connecté au serveur et tu peux gérer les fichiers.
 
-**WinSCP :** WinSCP est à la base conçu pour SCP et SFTP (les versions sécurisées du protocole FTP), mais il gère aussi très bien le FTP classique. Le programme est un peu plus complet que FileZilla et est plutôt destiné aux utilisateurs avancés.
+**WinSCP :** WinSCP est à la base conçu pour SCP et SFTP (les versions sécurisées du protocole FTP), mais il gère aussi très bien le FTP classique. Le programme est un peu plus complet que FileZilla et s’adresse plutôt aux utilisateurs avancés.
 
 
 
 ### Bases de données
 
-En plus de nos produits serveur de jeu, on propose aussi 10 bases de données incluses. Ces bases sont nécessaires, par exemple, quand des données doivent être stockées dans une base. Sous **Bases de données**, tu peux créer une base et consulter les identifiants d’accès. Tu as aussi la possibilité d’activer l’option de backup et d’importer des sauvegardes de bases existantes.
+En plus de nos produits de serveur de jeu, on propose aussi 10 bases de données incluses. Ces bases sont nécessaires, par exemple, quand des données doivent être stockées dans une base. Sous **Bases de données**, tu peux créer une base et voir les identifiants d’accès. Tu as aussi la possibilité d’activer l’option de backup et d’importer des backups de base existants.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/WFLwCbZSQfYjrmD/preview)
 
@@ -183,13 +183,13 @@ En plus de nos produits serveur de jeu, on propose aussi 10 bases de données in
 
 ### Backups
 
-Sous **Backups**, tu peux créer des sauvegardes manuelles et automatiques pour ton serveur et sa base de données associée. Ça facilite la récupération de tes données en cas de problème ou de perte.
+Sous **Backups**, tu peux créer des backups manuels et automatiques pour ton serveur et sa base de données associée. Ça facilite la récupération de tes données en cas de problème ou de perte.
 
 Dans les paramètres, tu peux définir si les backups doivent être créés automatiquement et si cela doit se faire quotidiennement ou hebdomadairement. En plus, tu peux décider si les backups les plus anciens doivent être supprimés si besoin, par exemple quand l’espace de stockage disponible devient limité.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/nm9za5LTMEcNsga/preview)
 
-On fournit par défaut 10 Go d’espace de stockage sur le serveur de stockage pour les backups de nos produits serveur de jeu. Si tu as besoin de plus d’espace, tu peux l’upgrader contre un supplément. Comme ça, tu t’assures d’avoir toujours assez de place pour tes backups et tu peux accéder aux plus anciens si besoin.
+On fournit par défaut 10 Go d’espace de stockage sur le serveur de stockage pour les backups de nos produits serveur de jeu. Si tu as besoin de plus d’espace, tu peux l’upgrader moyennant un supplément. Comme ça, tu t’assures d’avoir toujours assez de place pour tes backups et tu peux accéder aux backups plus anciens si besoin.
 
 ## Liens complémentaires
 Dans la section **Liens complémentaires**, tu trouveras d’autres liens pertinents pour ton produit.
@@ -198,17 +198,17 @@ Dans la section **Liens complémentaires**, tu trouveras d’autres liens pertin
 La section **Questions fréquentes** offre un aperçu des questions les plus posées par nos clients. Tu y trouveras des réponses utiles et des infos détaillées sur différents sujets pour t’aider rapidement et efficacement.
 
 ### Documentation ZAP-Hosting
-On propose une documentation complète pour nos produits, qui sert de base de connaissances pour les questions et soucis les plus fréquents. Tu y trouveras divers guides et aides sur différents sujets qui t’aideront à utiliser et gérer ton produit.
+On propose une documentation complète pour nos produits, qui sert de base de connaissances pour les questions et soucis les plus fréquents. Tu y trouveras divers guides et aides sur différents sujets pour t’accompagner dans l’utilisation et la gestion de ton produit.
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/n48ct6aZBrNq7eT/preview)
 
 ### News
-La section **News** te donne un aperçu complet de toutes les annonces et nouveautés liées à ton service. Tu y trouveras des infos importantes sur divers aspects comme :
+La section **News** te donne un aperçu complet de toutes les annonces et nouveautés liées à ton service. Tu y trouveras des infos importantes sur différents aspects comme :
 
 - Les changements du service, par exemple via des mises à jour ou nouvelles fonctionnalités
-- Les annonces concernant des maintenances ou problèmes techniques éventuels
-- Les offres spéciales et promotions qui te donnent des avantages ou réductions exclusifs
-- D’autres infos pertinentes qui peuvent impacter l’utilisation de ton service
+- Les annonces concernant d’éventuelles maintenances ou problèmes techniques
+- Les offres spéciales et promotions qui te donnent des avantages ou réductions exclusives
+- D’autres infos pertinentes pour l’utilisation de ton service
 
 En consultant régulièrement les **News**, tu restes informé et peux ajuster ton service pour tirer le meilleur de ton serveur. Test news.
 
