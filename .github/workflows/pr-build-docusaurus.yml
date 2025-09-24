@@ -34,6 +34,8 @@ jobs:
         working-directory: ${{ github.workspace }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TRANSLATION_PROMPT: ${{ secrets.TRANSLATION_PROMPT }}
+          TRANSLATION_GLOSSARY: ${{ secrets.TRANSLATION_GLOSSARY }}
 
       - name: Commit translations
         run: |

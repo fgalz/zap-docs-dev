@@ -8,14 +8,12 @@ const openai = new OpenAI({
 });
 
 const SOURCE_DIR = 'docs';
-const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar']; // anpassen nach Bedarf
+const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar'];
 
-// ---------------- Token Counter ----------------
 let totalPromptTokens = 0;
 let totalCompletionTokens = 0;
 let totalTokens = 0;
 
-// ---------------- Prompt Builder ----------------
 function buildGlossary(targetLang) {
   const glossaryRaw = process.env.TRANSLATION_GLOSSARY;
   if (!glossaryRaw) return "";
@@ -37,13 +35,16 @@ function buildGlossary(targetLang) {
 
 function buildSystemPrompt(targetLang) {
   const fromSecret = process.env.TRANSLATION_PROMPT;
+
+  console.log("\n--- DEBUG: Prompt for", targetLang, "---");
+  console.log(systemPrompt);
+
   if (!fromSecret || !fromSecret.trim()) {
     throw new Error("TRANSLATION_PROMPT secret is missing or empty!");
   }
   return fromSecret.replaceAll("${targetLang}", targetLang) + buildGlossary(targetLang);
 }
 
-// ---------------- Geänderte Markdown-Dateien finden ----------------
 function getChangedMarkdownFiles() {
   try {
     const output = execSync('git diff --name-only HEAD~1 HEAD', { encoding: 'utf8' });
@@ -63,23 +64,18 @@ function getAllMarkdownFiles() {
   return output.split('\n').filter(file => file.trim() !== '');
 }
 
-// ---------------- Übersetzung ----------------
 async function translateContent(content, targetLang) {
   const systemPrompt = buildSystemPrompt(targetLang);
 
-  // Debug-Ausgabe
   console.log(`\n--- DEBUG: Prompt for ${targetLang} ---`);
   console.log(systemPrompt);
-  console.log("\n--- DEBUG: Content to translate (first 500 chars) ---");
-  console.log(content.substring(0, 500));
-  console.log("\n----------------------------------\n");
 
   const response = await openai.chat.completions.create({
-    model: 'gpt-4o-mini',
+    model: 'gpt-4.1-mini',
     messages: [
       {
         role: 'system',
-        content: systemPrompt
+        content: buildSystemPrompt(targetLang)
       },
       {
         role: 'user',
@@ -98,7 +94,6 @@ async function translateContent(content, targetLang) {
   return response.choices[0].message.content;
 }
 
-// ---------------- Hauptprozess ----------------
 async function main() {
   const changedFiles = getChangedMarkdownFiles();
   console.log(`Found ${changedFiles.length} changed markdown files`);
