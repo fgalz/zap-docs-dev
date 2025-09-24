@@ -8,14 +8,42 @@ const openai = new OpenAI({
 });
 
 const SOURCE_DIR = 'docs';
-const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar']; // anpassen nach Bedarf
+const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar'];
 
-// ---------------- Token Counter ----------------
 let totalPromptTokens = 0;
 let totalCompletionTokens = 0;
 let totalTokens = 0;
 
-// ---------------- Geänderte Markdown-Dateien finden ----------------
+function buildGlossary(targetLang) {
+  const glossaryRaw = process.env.TRANSLATION_GLOSSARY;
+  if (!glossaryRaw) return "";
+
+  try {
+    const glossaryObj = JSON.parse(glossaryRaw);
+    if (!glossaryObj[targetLang]) return "";
+
+    const entries = Object.entries(glossaryObj[targetLang])
+      .map(([src, tgt]) => `- Translate "${src}" as "${tgt}"`)
+      .join("\n");
+
+    return `\n\nGlossary rules for ${targetLang}:\n${entries}`;
+  } catch (err) {
+    console.error("Glossary parsing failed:", err);
+    return "";
+  }
+}
+
+function buildSystemPrompt(targetLang) {
+  const fromSecret = process.env.TRANSLATION_PROMPT;
+
+  console.log("\n--- DEBUG: Prompt for", targetLang, "---");
+  console.log(systemPrompt);
+
+  if (!fromSecret || !fromSecret.trim()) {
+    throw new Error("TRANSLATION_PROMPT secret is missing or empty!");
+  }
+  return fromSecret.replaceAll("${targetLang}", targetLang) + buildGlossary(targetLang);
+}
 
 function getChangedMarkdownFiles() {
   try {
@@ -36,15 +64,13 @@ function getAllMarkdownFiles() {
   return output.split('\n').filter(file => file.trim() !== '');
 }
 
-// ---------------- Übersetzung ----------------
-
 async function translateContent(content, targetLang) {
   const response = await openai.chat.completions.create({
     model: 'gpt-4.1-mini',
     messages: [
       {
         role: 'system',
-        content: `You are a professional translator. Translate the following markdown content to ${targetLang}. Keep all markdown formatting, code blocks, and links intact. Only translate visible text. Do not translate metadata ids. Always prefer industry-standard terminology and product names as they are actually used in the gaming and hosting industry in the target language, even if this means keeping the original English term instead of translating it literally. Ensure terminology is consistent with the style used by ZAP-Hosting and communicate in a young, modern, and informal tone.`
+        content: buildSystemPrompt(targetLang)
       },
       {
         role: 'user',
@@ -54,7 +80,6 @@ async function translateContent(content, targetLang) {
     temperature: 0.1
   });
 
-  // Token usage erfassen
   if (response.usage) {
     totalPromptTokens += response.usage.prompt_tokens || 0;
     totalCompletionTokens += response.usage.completion_tokens || 0;
@@ -64,15 +89,13 @@ async function translateContent(content, targetLang) {
   return response.choices[0].message.content;
 }
 
-// ---------------- Hauptprozess ----------------
-
 async function main() {
   const changedFiles = getChangedMarkdownFiles();
   console.log(`Found ${changedFiles.length} changed markdown files`);
 
   for (const file of changedFiles) {
     const content = fs.readFileSync(file, 'utf8');
-    const relPath = path.relative(SOURCE_DIR, file); // relativer Pfad von docs/
+    const relPath = path.relative(SOURCE_DIR, file);
 
     for (const lang of TARGET_LANGUAGES) {
       console.log(`Translating ${file} to ${lang}...`);
@@ -90,7 +113,6 @@ async function main() {
         fs.mkdirSync(path.dirname(outputFile), { recursive: true });
         fs.writeFileSync(outputFile, translatedContent);
 
-        // kleine Pause gegen Rate Limits
         await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (error) {
         console.error(`Error translating ${file} to ${lang}:`, error);
@@ -98,7 +120,6 @@ async function main() {
     }
   }
 
-  // Zusammenfassung der Token-Nutzung
   console.log('\n--- Translation Token Usage ---');
   console.log(`Prompt tokens:     ${totalPromptTokens}`);
   console.log(`Completion tokens: ${totalCompletionTokens}`);
