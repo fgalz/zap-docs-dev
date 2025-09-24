@@ -10,11 +10,11 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import Button from '@site/src/components/Button';
 
-## Introduction234
+## Introduction
 
-Setting up and running your own Necesse game server can be an exciting and a lot of fun. While it can be a great way to build a custom gaming environment and community, it also means taking responsibility when things go wrong. Crashes, lag, and configuration issues are common issue that every server owner may encounters at some point.
+Setting up and running your own Necesse game server can be an exciting and a lot of fun. While it can be a great way to build a custom gaming environment and community, it also means taking responsibility when things go wrong. Crashes, lag, and configuration issues are common issue that every server owner may encounters at some point. PLEASE FINALLY TRANSLATE CORRECT.
 
-To make sure you spend less time fixing and more time enjoying your server, this section highlights the most common issues server owners face and provides solutions to help you resolve them quickly and effectively.
+To make sure you spend less time fixing and more time enjoying your server, this section highlights the most common issues server owners face and provides solutions to help you resolve them quickly and effectively. Give me a new example!
 
 
 <InlineVoucher />
