@@ -30,13 +30,12 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Translation process
-        run: node translate.js
         working-directory: ${{ github.workspace }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           TRANSLATION_PROMPT: ${{ secrets.TRANSLATION_PROMPT }}
           TRANSLATION_GLOSSARY: ${{ secrets.TRANSLATION_GLOSSARY }}
-
+        run: node translate.js
       - name: Commit translations
         run: |
           git config --local user.name "github-actions"
