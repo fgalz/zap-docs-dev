@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 const SOURCE_DIR = 'docs';
-const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar'];
+const TARGET_LANGUAGES = ['de', 'fr', 'es', 'ar', 'pt', 'th', 'pl', 'ja'];
 
 let totalPromptTokens = 0;
 let totalCompletionTokens = 0;
