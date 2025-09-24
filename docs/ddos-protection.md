@@ -43,12 +43,12 @@ OVH is one of the largest European infrastructure providers and operates its own
 
 ## DDoS Protection Comparison
 The following table provides a simplified overview of the main features of the DDoS protection systems in use. This comparison helps you understand what kind of protection is applied at each server location. 
-While all providers offer strong baseline protection, there are differences in scope and methods depending on the infrastructure.
+While all providers offer strong baseline protection, there are differences in scope and methods depending on the infrastructure. Test
 
 | Protection Feature                                 | PletX | Aurologic | OVH  |
 | -------------------------------------------------- | :---: | :-------: | :--: |
 | Always-on protection                               |   ✓   |     *     |  ✓   |
-| Baseline protection for all services               |   ✓   |     ✓     |  ✓   |
+| Baseline protection for all services               |   ✓   |     X     |  ✓   |
 | Network and Application filtering                  |   ✓   |     ✓     |  ✓   |
 | Additional Game specific filtering                 |   ✓   |     ✓     |  ✓   |
 | No downtime during mitigation                      |   ✓   |     ✓     |  ✓   |
