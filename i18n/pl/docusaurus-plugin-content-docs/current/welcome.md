@@ -1,26 +1,26 @@
 ---
 id: welcome
-title: Bienvenue dans la documentation ZAP-Hosting !
-sidebar_label: Bienvenue !
+title: Witamy w dokumentacji ZAP-Hosting!
+sidebar_label: Witaj!
 ---
 
 import Card from '@site/src/components/Card/Card';
 import Cards from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Test d'introduction
+## Test wprowadzenia
 
-Bienvenue dans la documentation complète de ZAP-Hosting, votre hub central pour tout ce qui concerne nos produits – des serveurs de jeu, serveurs vRoot et serveurs dédiés aux domaines & espaces web, ainsi que voicebot & serveur vocal. Ici, vous trouverez des instructions détaillées, des astuces et des conseils pour tirer le meilleur parti de vos produits (services) et réussir vos projets.
+Witamy w kompleksowej dokumentacji ZAP-Hosting, która jest centralnym miejscem dla wszystkiego, co związane z naszymi produktami – od serwerów gier, serwerów vRoot i dedykowanych, po domeny i webspace, a także voiceboty i serwery głosowe. Znajdziesz tu szczegółowe instrukcje, wskazówki i triki, które pomogą Ci maksymalnie wykorzystać Twoje produkty (usługi) i z powodzeniem realizować projekty.
 
-Notre objectif est de rendre le savoir accessible et compréhensible. C’est pourquoi nos guides sont conçus pour être faciles à comprendre par tous – peu importe votre niveau technique. Que vous débutiez avec la configuration de votre premier serveur de jeu, que vous plongiez dans l’univers des serveurs dédiés, que vous enregistriez votre premier domaine ou que vous configuriez votre serveur vocal, nos guides vous offrent une entrée simple et claire.
+Naszym celem jest, aby wiedza była dostępna i zrozumiała. Dlatego nasze poradniki są zaprojektowane tak, by każdy mógł je łatwo ogarnąć – niezależnie od poziomu technicznej wiedzy. Niezależnie czy zaczynasz od konfiguracji pierwszego serwera gry, zagłębiasz się w świat serwerów dedykowanych, rejestrujesz swoją pierwszą domenę czy konfigurujesz serwer głosowy, nasze poradniki dadzą Ci prosty i jasny start.
 
-On couvre un large éventail de sujets et on met régulièrement à jour nos contenus pour que vous soyez toujours au top et puissiez appliquer les meilleures pratiques. Des guides d’installation basiques aux techniques avancées de configuration.
+Poruszamy szerokie spektrum tematów i regularnie aktualizujemy treści, żebyś zawsze był na bieżąco i mógł stosować najlepsze praktyki. Od podstawowych instrukcji konfiguracji po zaawansowane techniki ustawień.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Bienvenue dans ZAP-Docs !" description="Vous comprenez mieux en voyant les choses en action ? On a ce qu’il vous faut ! Plongez dans notre vidéo qui vous explique tout. Que vous soyez pressé ou que vous préfériez apprendre de manière plus fun et immersive !"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Witaj w ZAP-Docs!" description="Wolisz zobaczyć wszystko w akcji, żeby lepiej zrozumieć? Mamy to! Zanurz się w naszym wideo, które wszystko rozkłada na czynniki pierwsze. Niezależnie czy się spieszysz, czy po prostu wolisz chłonąć info w najbardziej angażujący sposób!"/>
 
-## Serveur de jeu
+## Serwery gier
 
-Exploitez à fond votre serveur de jeu. Avec notre expertise, on booste votre expérience gaming à un autre niveau. Nos guides détaillés pour plus de 100 jeux différents et leurs extensions/mods vous permettent de maîtriser la configuration et la gestion de vos serveurs de jeu.
+Wykorzystaj pełnię możliwości swojego serwera gry. Dzięki naszej wiedzy wyniesiesz swoje granie na wyższy poziom. Nasze szczegółowe poradniki do ponad 100 różnych gier i ich modów/rozszerzeń pozwolą Ci zgłębić konfigurację i zarządzanie serwerami gier.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -139,32 +139,32 @@ Exploitez à fond votre serveur de jeu. Avec notre expertise, on booste votre ex
 </Cards>
 
 ## VPS
-Exploitez à fond votre VPS grâce à nos guides complets. Que vous préfériez Linux ou Windows, nos guides vous aident à configurer et gérer votre serveur efficacement.
+Wykorzystaj pełnię możliwości swojego VPS dzięki naszym kompleksowym poradnikom. Niezależnie czy wolisz Linuxa czy Windowsa, nasze instrukcje pomogą Ci sprawnie skonfigurować i zarządzać serwerem.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
-## Serveur dédié
+## Serwer dedykowany
 
-Nos serveurs dédiés offrent la puissance nécessaire pour vos projets exigeants. Découvrez dans nos guides comment configurer le hardware et les systèmes d’exploitation selon vos besoins et garantir des performances optimales à vos applis.
-
-<Cards>
-    <Card title="Serveur dédié" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
-</Cards>
-
-## Domaine & Espace web
-Lancez votre projet en ligne sur des bases solides avec des guides clairs sur l’enregistrement de domaine et la gestion d’espace web. On vous accompagne à chaque étape, de la configuration à la mise en ligne de votre site.
+Nasze serwery dedykowane oferują moc dla wymagających projektów. W naszych poradnikach dowiesz się, jak skonfigurować sprzęt i systemy operacyjne pod swoje potrzeby oraz jak zapewnić optymalne działanie aplikacji.
 
 <Cards>
-    <Card title="Domaine" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
-    <Card title="Espace web" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
+    <Card title="Serwer dedykowany" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
-## Voicebot & Serveur vocal
-Boostez vos interactions en ligne avec nos voicebots et serveurs vocaux. Nos guides rendent la config simple, pour que vous passiez plus de temps avec votre communauté, que ce soit en gaming ou en réunion.
+## Domeny & Webspace
+Rozpocznij swój projekt online na solidnych podstawach dzięki prostym do ogarnięcia poradnikom o rejestracji domen i zarządzaniu webspace. Przeprowadzimy Cię przez każdy krok, od konfiguracji po publikację strony.
+
+<Cards>
+    <Card title="Domena" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
+    <Card title="Webspace" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
+</Cards>
+
+## Voicebot & Serwer głosowy
+Podkręć swoje interakcje online dzięki naszym voicebotom i serwerom głosowym. Nasze poradniki sprawiają, że konfiguracja jest prosta, więc możesz spędzać więcej czasu z community – czy to na graniu, czy na spotkaniach.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
-    <Card title="Serveur vocal" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
+    <Card title="Serwer głosowy" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>

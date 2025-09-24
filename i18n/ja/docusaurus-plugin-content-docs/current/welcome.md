@@ -1,26 +1,26 @@
 ---
 id: welcome
-title: Bienvenue dans la documentation ZAP-Hosting !
-sidebar_label: Bienvenue !
+title: ZAP-Hostingドキュメントへようこそ！
+sidebar_label: ようこそ！
 ---
 
 import Card from '@site/src/components/Card/Card';
 import Cards from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Test d'introduction
+## はじめにテスト
 
-Bienvenue dans la documentation complète de ZAP-Hosting, votre hub central pour tout ce qui concerne nos produits – des serveurs de jeu, serveurs vRoot et serveurs dédiés aux domaines & espaces web, ainsi que voicebot & serveur vocal. Ici, vous trouverez des instructions détaillées, des astuces et des conseils pour tirer le meilleur parti de vos produits (services) et réussir vos projets.
+ZAP-Hostingの包括的なドキュメントへようこそ！ここはゲームサーバー、vRootサーバー、専用サーバーからドメイン＆ウェブスペース、さらにはボイスボット＆ボイスサーバーまで、当社の製品に関するすべての情報の中心地です。ここでは、製品（サービス）を最大限に活用し、プロジェクトを成功させるための詳細な手順、ヒント、コツを見つけることができます。
 
-Notre objectif est de rendre le savoir accessible et compréhensible. C’est pourquoi nos guides sont conçus pour être faciles à comprendre par tous – peu importe votre niveau technique. Que vous débutiez avec la configuration de votre premier serveur de jeu, que vous plongiez dans l’univers des serveurs dédiés, que vous enregistriez votre premier domaine ou que vous configuriez votre serveur vocal, nos guides vous offrent une entrée simple et claire.
+私たちの目標は、知識を誰でもアクセスしやすく、理解しやすいものにすることです。だからこそ、技術的な前提知識に関係なく、誰でも簡単に理解できるようにガイドを設計しています。初めてのゲームサーバーのセットアップ、専用サーバーの世界への挑戦、初めてのドメイン登録、ボイスサーバーの設定など、どんな場合でもわかりやすくスムーズに始められるようサポートします。
 
-On couvre un large éventail de sujets et on met régulièrement à jour nos contenus pour que vous soyez toujours au top et puissiez appliquer les meilleures pratiques. Des guides d’installation basiques aux techniques avancées de configuration.
+幅広いトピックをカバーし、常に最新の情報とベストプラクティスを提供できるよう定期的にコンテンツを更新しています。基本的なセットアップガイドから高度な設定テクニックまで対応。
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Bienvenue dans ZAP-Docs !" description="Vous comprenez mieux en voyant les choses en action ? On a ce qu’il vous faut ! Plongez dans notre vidéo qui vous explique tout. Que vous soyez pressé ou que vous préfériez apprendre de manière plus fun et immersive !"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="ZAP-Docsへようこそ！" description="実際に動いているところを見ると理解が深まる？そんなあなたにピッタリの動画です！急いでいる時も、じっくり楽しみたい時も、わかりやすく解説しています！"/>
 
-## Serveur de jeu
+## ゲームサーバー
 
-Exploitez à fond votre serveur de jeu. Avec notre expertise, on booste votre expérience gaming à un autre niveau. Nos guides détaillés pour plus de 100 jeux différents et leurs extensions/mods vous permettent de maîtriser la configuration et la gestion de vos serveurs de jeu.
+ゲームサーバーを完璧に使いこなそう。私たちのノウハウでゲーム体験をワンランクアップ！100以上のゲームや拡張・MODの詳細なガイドで、ゲームサーバーの設定や管理をしっかりマスターできます。
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -139,32 +139,32 @@ Exploitez à fond votre serveur de jeu. Avec notre expertise, on booste votre ex
 </Cards>
 
 ## VPS
-Exploitez à fond votre VPS grâce à nos guides complets. Que vous préfériez Linux ou Windows, nos guides vous aident à configurer et gérer votre serveur efficacement.
+VPSをフル活用しよう！LinuxでもWindowsでも、効率的なセットアップと管理をサポートする充実のガイドを用意しています。
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
 </Cards>
 
-## Serveur dédié
+## 専用サーバー
 
-Nos serveurs dédiés offrent la puissance nécessaire pour vos projets exigeants. Découvrez dans nos guides comment configurer le hardware et les systèmes d’exploitation selon vos besoins et garantir des performances optimales à vos applis.
+高負荷なプロジェクトに最適な専用サーバー。ハードウェアやOSの設定方法をガイドで学び、アプリケーションを最適に動かそう。
 
 <Cards>
-    <Card title="Serveur dédié" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
+    <Card title="専用サーバー" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
 </Cards>
 
-## Domaine & Espace web
-Lancez votre projet en ligne sur des bases solides avec des guides clairs sur l’enregistrement de domaine et la gestion d’espace web. On vous accompagne à chaque étape, de la configuration à la mise en ligne de votre site.
+## ドメイン＆ウェブスペース
+オンラインプロジェクトをしっかり支える基盤作り。ドメイン登録からウェブスペース管理まで、わかりやすいガイドでサイト公開までしっかりサポート。
 
 <Cards>
-    <Card title="Domaine" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
-    <Card title="Espace web" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
+    <Card title="ドメイン" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
+    <Card title="ウェブスペース" description="Placeholder" link="https://zap-hosting.com/guides/docs/webspace-adddomain" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
 </Cards>
 
-## Voicebot & Serveur vocal
-Boostez vos interactions en ligne avec nos voicebots et serveurs vocaux. Nos guides rendent la config simple, pour que vous passiez plus de temps avec votre communauté, que ce soit en gaming ou en réunion.
+## ボイスボット＆ボイスサーバー
+ボイスボットとボイスサーバーでオンラインコミュニケーションをもっと楽しく。設定も簡単だから、ゲームやミーティングでコミュニティと過ごす時間を増やせるよ。
 
 <Cards>
-    <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
-    <Card title="Serveur vocal" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
+    <Card title="ボイスボット" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
+    <Card title="ボイスサーバー" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-becomeadmin" image="https://screensaver01.zap-hosting.com/index.php/s/6cxS6Mo93YL6X5K/preview" type="product-categories"/>
 </Cards>
