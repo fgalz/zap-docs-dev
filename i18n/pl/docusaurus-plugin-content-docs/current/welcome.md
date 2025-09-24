@@ -8,19 +8,19 @@ import Card from '@site/src/components/Card/Card';
 import Cards from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Test wprowadzenia
+## Wprowadzenie Test123
 
-Witamy w kompleksowej dokumentacji ZAP-Hosting, która jest centralnym miejscem dla wszystkiego, co związane z naszymi produktami – od serwerów gier, serwerów vRoot i dedykowanych, po domeny i webspace, a także voiceboty i serwery głosowe. Znajdziesz tu szczegółowe instrukcje, wskazówki i triki, które pomogą Ci maksymalnie wykorzystać Twoje produkty (usługi) i z powodzeniem realizować projekty.
+Witamy w kompleksowej dokumentacji ZAP-Hosting, która jest centralnym miejscem dla wszystkiego, co związane z naszymi produktami – od serwerów gier, serwerów vRoot i dedykowanych, po domeny i webspace, a także voiceboty i serwery głosowe. Znajdziesz tu szczegółowe instrukcje, porady i triki, które pomogą Ci wycisnąć maksimum z Twoich produktów (usług) i z sukcesem realizować swoje projekty.
 
-Naszym celem jest, aby wiedza była dostępna i zrozumiała. Dlatego nasze poradniki są zaprojektowane tak, by każdy mógł je łatwo ogarnąć – niezależnie od poziomu technicznej wiedzy. Niezależnie czy zaczynasz od konfiguracji pierwszego serwera gry, zagłębiasz się w świat serwerów dedykowanych, rejestrujesz swoją pierwszą domenę czy konfigurujesz serwer głosowy, nasze poradniki dadzą Ci prosty i jasny start.
+Naszym celem jest, aby wiedza była dostępna i zrozumiała. Dlatego nasze poradniki są zaprojektowane tak, by każdy mógł je łatwo ogarnąć – niezależnie od poziomu technicznej wiedzy. Niezależnie czy zaczynasz od konfiguracji pierwszego serwera gry, wkraczasz w świat serwerów dedykowanych, rejestrujesz swoją pierwszą domenę czy konfigurujesz serwer głosowy, nasze poradniki dadzą Ci prosty i klarowny start.
 
-Poruszamy szerokie spektrum tematów i regularnie aktualizujemy treści, żebyś zawsze był na bieżąco i mógł stosować najlepsze praktyki. Od podstawowych instrukcji konfiguracji po zaawansowane techniki ustawień.
+Poruszamy szeroki zakres tematów i regularnie aktualizujemy treści, żebyś zawsze był na bieżąco i mógł stosować najlepsze praktyki. Od podstawowych instrukcji konfiguracji po zaawansowane techniki ustawień.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Witaj w ZAP-Docs!" description="Wolisz zobaczyć wszystko w akcji, żeby lepiej zrozumieć? Mamy to! Zanurz się w naszym wideo, które wszystko rozkłada na czynniki pierwsze. Niezależnie czy się spieszysz, czy po prostu wolisz chłonąć info w najbardziej angażujący sposób!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Witamy w ZAP-Docs!" description="Wolisz zobaczyć wszystko w akcji, żeby lepiej zrozumieć? Mamy to! Zanurz się w naszym wideo, które wszystko rozkłada na czynniki pierwsze. Niezależnie czy się spieszysz, czy po prostu wolisz chłonąć info w najbardziej angażujący sposób!"/>
 
 ## Serwery gier
 
-Wykorzystaj pełnię możliwości swojego serwera gry. Dzięki naszej wiedzy wyniesiesz swoje granie na wyższy poziom. Nasze szczegółowe poradniki do ponad 100 różnych gier i ich modów/rozszerzeń pozwolą Ci zgłębić konfigurację i zarządzanie serwerami gier.
+Wykorzystaj pełnię możliwości swojego serwera gier. Dzięki naszej wiedzy wyniesiesz swoje granie na wyższy poziom. Nasze szczegółowe poradniki dla ponad 100 różnych gier i ich rozszerzeń/modów pozwolą Ci zgłębić konfigurację i zarządzanie serwerami gier.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -154,7 +154,7 @@ Nasze serwery dedykowane oferują moc dla wymagających projektów. W naszych po
 </Cards>
 
 ## Domeny & Webspace
-Rozpocznij swój projekt online na solidnych podstawach dzięki prostym do ogarnięcia poradnikom o rejestracji domen i zarządzaniu webspace. Przeprowadzimy Cię przez każdy krok, od konfiguracji po publikację strony.
+Rozpocznij swój projekt online na solidnych podstawach dzięki łatwym do zrozumienia poradnikom o rejestracji domen i zarządzaniu webspace. Przeprowadzimy Cię przez każdy krok – od konfiguracji po publikację strony.
 
 <Cards>
     <Card title="Domena" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -162,7 +162,7 @@ Rozpocznij swój projekt online na solidnych podstawach dzięki prostym do ogarn
 </Cards>
 
 ## Voicebot & Serwer głosowy
-Podkręć swoje interakcje online dzięki naszym voicebotom i serwerom głosowym. Nasze poradniki sprawiają, że konfiguracja jest prosta, więc możesz spędzać więcej czasu z community – czy to na graniu, czy na spotkaniach.
+Podkręć swoje interakcje online z naszymi voicebotami i serwerami głosowymi. Nasze poradniki sprawiają, że konfiguracja jest prosta, dzięki czemu możesz spędzać więcej czasu z community – czy to podczas grania, czy na spotkaniach.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
