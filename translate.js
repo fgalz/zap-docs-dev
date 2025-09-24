@@ -65,6 +65,14 @@ function getAllMarkdownFiles() {
 }
 
 async function translateContent(content, targetLang) {
+<<<<<<< Updated upstream
+=======
+  const systemPrompt = buildSystemPrompt(targetLang);
+
+  console.log(`\n--- DEBUG: Prompt for ${targetLang} ---`);
+  console.log(systemPrompt);
+
+>>>>>>> Stashed changes
   const response = await openai.chat.completions.create({
     model: 'gpt-4.1-mini',
     messages: [
