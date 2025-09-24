@@ -210,6 +210,6 @@ The **News** provides you with a comprehensive overview of all announcements and
 - Special offers and promotions that give you exclusive benefits or discounts
 - Other relevant information that may be relevant to the use of your service
 
-By checking the **News** regularly, you'll stay informed and be able to adjust your service accordingly to get the most out of your server.
+By checking the **News** regularly, you'll stay informed and be able to adjust your service accordingly to get the most out of your server. Test news.
 
 <InlineVoucher />
