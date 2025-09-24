@@ -8,19 +8,19 @@ import Card from '@site/src/components/Card/Card';
 import Cards from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Teste de Introdução
+## Introdução Test123
 
-Bem-vindo à documentação completa da ZAP-Hosting, seu ponto central para tudo relacionado aos nossos produtos – desde servidores de jogos, servidores vRoot e servidores dedicados até domínios & webspace, além de voicebot & servidor de voz. Aqui você encontra instruções detalhadas, dicas e truques para aproveitar ao máximo seus produtos (serviços) e tirar seus projetos do papel com sucesso.
+Bem-vindo à documentação completa da ZAP-Hosting, seu ponto central para tudo relacionado aos nossos produtos – desde servidores de jogos, servidores vRoot e servidores dedicados até domínio & webspace, além de voicebot & servidor de voz. Aqui você encontra instruções detalhadas, dicas e truques para aproveitar ao máximo seus produtos (serviços) e tirar seus projetos do papel com sucesso.
 
-Nosso objetivo é tornar o conhecimento acessível e fácil de entender. Por isso, criamos nossos guias para serem simples para todo mundo – independente do seu conhecimento técnico. Seja você um novato configurando seu primeiro servidor de jogo, entrando no mundo dos servidores dedicados, registrando seu primeiro domínio ou configurando seu servidor de voz, nossos guias são feitos para te dar uma entrada fácil e clara.
+Nosso objetivo é tornar o conhecimento acessível e fácil de entender. Por isso, criamos nossos guias para serem simples para todo mundo – independente do seu nível técnico. Seja você um novato configurando seu primeiro servidor de jogo, entrando no mundo dos servidores dedicados, registrando seu primeiro domínio ou configurando seu servidor de voz, nossos guias são feitos para te dar uma entrada fácil e clara.
 
 Cobrimos uma variedade enorme de temas e atualizamos nosso conteúdo regularmente para garantir que você esteja sempre por dentro e possa aplicar as melhores práticas. Desde guias básicos de configuração até técnicas avançadas.
 
 <YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Bem-vindo aos ZAP-Docs!" description="Prefere entender vendo as coisas na prática? A gente te entende! Mergulhe no nosso vídeo que explica tudo de forma simples. Seja na correria ou só pra absorver o conteúdo do jeito mais legal possível!"/>
 
-## Servidor de Jogo
+## Servidor de Jogos
 
-Deixe seu servidor de jogo tinindo e aproveite tudo que ele pode oferecer. Com nossa expertise, levamos seu game para outro nível. Nossos guias detalhados para mais de 100 jogos diferentes e suas extensões/mods te ajudam a dominar a configuração e gestão dos seus servidores de jogo.
+Deixe seu servidor de jogos tinindo e aproveite tudo que ele pode oferecer. Com nosso know-how, levamos seu game para outro nível. Nossos guias detalhados para mais de 100 jogos diferentes e suas extensões/mods te ajudam a dominar a configuração e gestão dos seus servidores de jogo.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -154,7 +154,7 @@ Nossos servidores dedicados entregam performance para projetos pesados. Descubra
 </Cards>
 
 ## Domínio & Webspace
-Comece seu projeto online com uma base sólida usando guias fáceis de entender sobre registro de domínio e gerenciamento de webspace. A gente te acompanha em cada passo, desde a configuração até publicar seu site.
+Comece seu projeto online com uma base sólida usando guias fáceis sobre registro de domínio e gerenciamento de webspace. A gente te acompanha em cada passo, desde a configuração até publicar seu site.
 
 <Cards>
     <Card title="Domínio" description="Placeholder" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>
@@ -162,7 +162,7 @@ Comece seu projeto online com uma base sólida usando guias fáceis de entender 
 </Cards>
 
 ## Voicebot & Servidor de Voz
-Deixe suas interações online mais iradas com nossos voicebots e servidores de voz. Nossos guias facilitam a configuração, pra você curtir mais tempo com sua galera, seja jogando ou em reuniões.
+Deixe suas interações online mais iradas com nossos voicebots e servidores de voz. Nossos guias facilitam a configuração, pra você curtir mais tempo com a galera, seja jogando ou em reuniões.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>

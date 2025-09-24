@@ -8,19 +8,19 @@ import Card from '@site/src/components/Card/Card';
 import Cards from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Einführungstest
+## Einführung Test123
 
-Willkommen in der umfassenden Dokumentation von ZAP-Hosting, deinem zentralen Anlaufpunkt für alles rund um unsere Produkte – von Gameservern, vRoot-Servern und Dedicated Servern bis hin zu Domain & Webspace sowie Voicebot & Voiceserver. Hier findest du detaillierte Anleitungen, Tipps und Tricks, die dir helfen, das Maximum aus deinen Produkten (Services) herauszuholen und deine Projekte erfolgreich umzusetzen.
+Willkommen in der umfassenden Dokumentation von ZAP-Hosting, deinem zentralen Anlaufpunkt für alles rund um unsere Produkte – von Gameservern, vRoot-Servern und Dedicated Servern bis hin zu Domain & Webspace sowie Voicebot & Voiceserver. Hier findest du detaillierte Anleitungen, Tipps und Tricks, damit du das Maximum aus deinen Produkten (Services) herausholen und deine Projekte erfolgreich umsetzen kannst.
 
 Unser Ziel ist es, Wissen zugänglich und verständlich zu machen. Deshalb sind unsere Anleitungen so gestaltet, dass sie für jeden leicht verständlich sind – ganz egal, wie viel technisches Vorwissen du mitbringst. Ob du gerade deinen ersten Gameserver einrichtest, in die Welt der Dedicated Server eintauchst, deine erste Domain registrierst oder deinen Voiceserver konfigurierst – unsere Anleitungen bieten dir einen einfachen und klaren Einstieg.
 
 Wir decken ein breites Themenspektrum ab und aktualisieren unsere Inhalte regelmäßig, damit du immer up to date bist und die besten Praktiken anwenden kannst. Von Basis-Setup-Anleitungen bis hin zu fortgeschrittenen Konfigurationstechniken.
 
-<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Willkommen bei den ZAP-Docs!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Tauche ein in unser Video, das alles für dich erklärt. Egal ob du es eilig hast oder Informationen am liebsten auf die spannendste Art aufnimmst!"/>
+<YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Willkommen bei ZAP-Docs!" description="Du verstehst besser, wenn du Dinge in Aktion siehst? Kein Problem! Tauche ein in unser Video, das alles für dich erklärt. Egal, ob du es eilig hast oder Informationen am liebsten auf die spannendste Art aufnimmst!"/>
 
 ## Gameserver
 
-Hol das Beste aus deinem Gameserver raus und nutze ihn voll aus. Mit unserem Know-how bringen wir dein Gaming auf das nächste Level. Unsere detaillierten Anleitungen für über 100 verschiedene Spiele und deren Erweiterungen/Mods ermöglichen dir ein tiefes Verständnis für die Konfiguration und Verwaltung deiner Gameserver.
+Perfektioniere und nutze das volle Potenzial deines Gameservers. Mit unserem Know-how bringen wir dein Gaming auf das nächste Level. Unsere detaillierten Anleitungen für über 100 verschiedene Spiele und deren Erweiterungen/Mods ermöglichen dir ein tiefes Verständnis für die Konfiguration und Verwaltung deiner Gameserver.
 
 <Cards>
     <Card title="FiveM" description="Platzhalter" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -139,7 +139,7 @@ Hol das Beste aus deinem Gameserver raus und nutze ihn voll aus. Mit unserem Kno
 </Cards>
 
 ## VPS
-Nutze deinen VPS voll aus mit unseren umfassenden Anleitungen. Egal ob du Linux oder Windows bevorzugst, unsere Guides helfen dir, deinen Server effizient einzurichten und zu verwalten.
+Nutze das volle Potenzial deines VPS mit unseren umfassenden Anleitungen. Egal ob du Linux oder Windows bevorzugst, unsere Guides helfen dir, deinen Server effizient einzurichten und zu verwalten.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Platzhalter" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -154,7 +154,7 @@ Unsere Dedicated Server bieten Leistung für anspruchsvolle Projekte. Entdecke i
 </Cards>
 
 ## Domain & Webspace
-Starte dein Online-Projekt auf einem soliden Fundament mit leicht verständlichen Anleitungen zur Domain-Registrierung und Webspace-Verwaltung. Wir begleiten dich bei jedem Schritt – vom Setup bis zur Veröffentlichung deiner Webseite.
+Starte dein Online-Projekt auf einem soliden Fundament mit leicht verständlichen Anleitungen zur Domain-Registrierung und Webspace-Verwaltung. Wir begleiten dich bei jedem Schritt, von der Einrichtung bis zur Veröffentlichung deiner Webseite.
 
 <Cards>
     <Card title="Domain" description="Platzhalter" link="https://zap-hosting.com/guides/docs/domain-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/SPaNk8LSP57s83z/preview" type="product-categories"/>

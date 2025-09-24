@@ -8,19 +8,19 @@ import Card from '@site/src/components/Card/Card';
 import Cards from '@site/src/components/Cards/Cards';
 import YouTube from '@site/src/components/YouTube/YouTube';
 
-## Test d'introduction
+## Introduction Test123
 
-Bienvenue dans la documentation complète de ZAP-Hosting, votre hub central pour tout ce qui concerne nos produits – des serveurs de jeu, serveurs vRoot et serveurs dédiés aux domaines & espaces web, ainsi que voicebot & serveur vocal. Ici, vous trouverez des instructions détaillées, des astuces et des conseils pour tirer le meilleur parti de vos produits (services) et réussir vos projets.
+Bienvenue dans la documentation complète de ZAP-Hosting, votre hub central pour tout ce qui concerne nos produits – des serveurs de jeu, serveurs vRoot et serveurs dédiés aux domaines & espaces web, ainsi que voicebot & serveur vocal. Ici, vous trouverez des instructions détaillées, des astuces et des conseils pour tirer le meilleur parti de vos produits (services) et mener à bien vos projets.
 
-Notre objectif est de rendre le savoir accessible et compréhensible. C’est pourquoi nos guides sont conçus pour être faciles à comprendre par tous – peu importe votre niveau technique. Que vous débutiez avec la configuration de votre premier serveur de jeu, que vous plongiez dans l’univers des serveurs dédiés, que vous enregistriez votre premier domaine ou que vous configuriez votre serveur vocal, nos guides vous offrent une entrée simple et claire.
+Notre objectif est de rendre le savoir accessible et compréhensible. C’est pourquoi nos guides sont conçus pour être faciles à comprendre par tous – peu importe votre niveau technique. Que vous débutiez avec la mise en place de votre premier serveur de jeu, que vous plongiez dans l’univers des serveurs dédiés, que vous enregistriez votre premier domaine ou que vous configuriez votre serveur vocal, nos guides vous offrent une entrée simple et claire.
 
-On couvre un large éventail de sujets et on met régulièrement à jour nos contenus pour que vous soyez toujours au top et puissiez appliquer les meilleures pratiques. Des guides d’installation basiques aux techniques avancées de configuration.
+On couvre un large éventail de sujets et on met régulièrement à jour nos contenus pour que vous soyez toujours au top et puissiez appliquer les meilleures pratiques. Des guides d’installation basiques aux techniques de configuration avancées.
 
 <YouTube videoId="-2wJ6ZJ6ZVk" imageSrc="https://screensaver01.zap-hosting.com/index.php/s/kGb9tgzzoNZPZjW/preview" title="Bienvenue dans ZAP-Docs !" description="Vous comprenez mieux en voyant les choses en action ? On a ce qu’il vous faut ! Plongez dans notre vidéo qui vous explique tout. Que vous soyez pressé ou que vous préfériez apprendre de manière plus fun et immersive !"/>
 
 ## Serveur de jeu
 
-Exploitez à fond votre serveur de jeu. Avec notre expertise, on booste votre expérience gaming à un autre niveau. Nos guides détaillés pour plus de 100 jeux différents et leurs extensions/mods vous permettent de maîtriser la configuration et la gestion de vos serveurs de jeu.
+Optimisez et exploitez tout le potentiel de votre serveur de jeu. Avec notre expertise, on fait passer votre expérience gaming à un niveau supérieur. Nos guides détaillés pour plus de 100 jeux différents et leurs extensions/mods vous permettent de maîtriser la configuration et la gestion de vos serveurs de jeu.
 
 <Cards>
     <Card title="FiveM" description="Placeholder" link="https://zap-hosting.com/guides/docs/fivem-dashboard" image="https://screensaver01.zap-hosting.com/index.php/s/fA3eHHpGLYo74ra/preview"/>
@@ -139,7 +139,7 @@ Exploitez à fond votre serveur de jeu. Avec notre expertise, on booste votre ex
 </Cards>
 
 ## VPS
-Exploitez à fond votre VPS grâce à nos guides complets. Que vous préfériez Linux ou Windows, nos guides vous aident à configurer et gérer votre serveur efficacement.
+Exploitez tout le potentiel de votre VPS grâce à nos guides complets. Que vous préfériez Linux ou Windows, nos guides vous aident à configurer et gérer votre serveur efficacement.
 
 <Cards>
     <Card title="VPS (Linux/Windows)" description="Placeholder" link="https://zap-hosting.com/guides/docs/vserver-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/XmJGtYkc7d9rBai/preview" type="product-categories"/>
@@ -147,7 +147,7 @@ Exploitez à fond votre VPS grâce à nos guides complets. Que vous préfériez 
 
 ## Serveur dédié
 
-Nos serveurs dédiés offrent la puissance nécessaire pour vos projets exigeants. Découvrez dans nos guides comment configurer le hardware et les systèmes d’exploitation selon vos besoins et garantir des performances optimales à vos applis.
+Nos serveurs dédiés offrent la puissance nécessaire pour vos projets exigeants. Découvrez dans nos guides comment configurer le hardware et les systèmes d’exploitation selon vos besoins et garantir des performances optimales à vos applications.
 
 <Cards>
     <Card title="Serveur dédié" description="Placeholder" link="https://zap-hosting.com/guides/docs/dedicated-introduction" image="https://screensaver01.zap-hosting.com/index.php/s/o5kTJsSdwGY69m8/preview" type="product-categories"/>
@@ -162,7 +162,7 @@ Lancez votre projet en ligne sur des bases solides avec des guides clairs sur l�
 </Cards>
 
 ## Voicebot & Serveur vocal
-Boostez vos interactions en ligne avec nos voicebots et serveurs vocaux. Nos guides rendent la config simple, pour que vous passiez plus de temps avec votre communauté, que ce soit en gaming ou en réunion.
+Boostez vos interactions en ligne avec nos voicebots et serveurs vocaux. Nos guides rendent la configuration simple, pour que vous passiez plus de temps avec votre communauté, que ce soit en gaming ou en réunion.
 
 <Cards>
     <Card title="Voicebot" description="Placeholder" link="https://zap-hosting.com/guides/docs/voiceserver-voicebot-connection" image="https://screensaver01.zap-hosting.com/index.php/s/zZ73fps5Eq93foK/preview" type="product-categories"/>
