@@ -6,7 +6,7 @@ sidebar_label: Register
 ---
 
 ## 🔐 Register with ZAP-Hosting now!!!!!
-It's super easy! Visit our website and go to the start page. There you will find a login screen where you have to enter your username, email address and password. Hello!
+It's super easy! Visit our website and go to the start page. There you will find a login screen where you have to enter your username, email address and password. Hello! Still testing...
 
 ![](https://screensaver01.zap-hosting.com/index.php/s/bLBnpoAWESigiK7/preview)
 
