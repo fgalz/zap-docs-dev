@@ -11,6 +11,8 @@ import InlineVoucher from '@site/src/components/InlineVoucher';
 
 <InlineVoucher />
 
+Test 12345
+
 ## The Console
 To run commands on your server, you need to be an admin. If you dont know how to become an admin, please checkout our guide.
 All commands are required to be executed through the developers console. You can open it by pressing `F1`

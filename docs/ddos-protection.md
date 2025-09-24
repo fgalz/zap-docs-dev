@@ -6,7 +6,7 @@ sidebar_label: DDoS Protection
 ---
 
 ## Introduction
-
+Test 12345
 DDoS (Distributed Denial of Service) attacks are malicious attempts to disrupt the normal traffic of a targeted server, service or network by overwhelming it with a flood of internet traffic. To ensure uninterrupted service for our customers, ZAP-Hosting uses proven DDoS protection solutions, tailored to the data center location.
 
 Our DDoS protection systems operate automatically and in real-time, filtering malicious traffic before it can affect server performance or availability.

@@ -4,7 +4,7 @@ title: Registration
 description: Information on how to register a user account with ZAP-Hosting - ZAP-Hosting.com documentation
 sidebar_label: Register
 ---
-
+Test 12345
 ## 🔐 Register with ZAP-Hosting now!!!!!
 It's super easy! Visit our website and go to the start page. There you will find a login screen where you have to enter your username, email address and password.
 
