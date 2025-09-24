@@ -28,15 +28,7 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'welcome',
-    'abuse-report',
-    'firststeps-register',
-    'firststeps-register2',
-    'preorders',
-    'necesse-firststeps-connect',
-    'necesse-troubleshooting-common-issues',
-    'necesse-firststeps-dashboard'
-
+    'welcome'
   ]
   
 };
