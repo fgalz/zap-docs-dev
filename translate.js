@@ -36,9 +36,6 @@ function buildGlossary(targetLang) {
 function buildSystemPrompt(targetLang) {
   const fromSecret = process.env.TRANSLATION_PROMPT;
 
-  console.log("\n--- DEBUG: Prompt for", targetLang, "---");
-  console.log(systemPrompt);
-
   if (!fromSecret || !fromSecret.trim()) {
     throw new Error("TRANSLATION_PROMPT secret is missing or empty!");
   }
@@ -75,7 +72,7 @@ async function translateContent(content, targetLang) {
     messages: [
       {
         role: 'system',
-        content: buildSystemPrompt(targetLang)
+        content: systemPrompt
       },
       {
         role: 'user',
