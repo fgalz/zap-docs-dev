@@ -10,156 +10,136 @@ services:
 import InlineVoucher from '@site/src/components/InlineVoucher';
 import Button from '@site/src/components/Button';
 
-## Einführung23456
+## Einführung
 
-Die Einrichtung und der Betrieb eines eigenen Necesse-Spielservers kann spannend und sehr unterhaltsam sein. Während es eine großartige Möglichkeit ist, eine individuelle Gaming-Umgebung und Community aufzubauen, bedeutet es auch, Verantwortung zu übernehmen, wenn etwas schiefgeht. Abstürze, Lag und Konfigurationsprobleme sind häufige Probleme, denen jeder Serverbesitzer irgendwann begegnen kann.
+Einen eigenen Necesse-Game-Server einzurichten und zu betreiben, kann richtig spannend und mega spaßig sein. Es ist eine coole Möglichkeit, eine individuelle Gaming-Umgebung und Community aufzubauen, aber bedeutet auch, Verantwortung zu übernehmen, wenn mal was schiefgeht. Crashes, Lag und Konfigurationsprobleme sind typische Herausforderungen, denen jeder Serverbesitzer irgendwann begegnet. BITTE ENDLICH RICHTIG ÜBERSETZEN.
 
-Damit Sie weniger Zeit mit der Fehlerbehebung verbringen und mehr Zeit haben, Ihren Server zu genießen, werden in diesem Abschnitt die häufigsten Probleme von Serverbesitzern hervorgehoben und Lösungen angeboten, die Ihnen helfen, diese schnell und effektiv zu beheben. Gib mir ein neues Beispiel!
-
+Damit du weniger Zeit mit Fehlerbehebung verbringst und mehr Zeit hast, deinen Server zu genießen, zeigt dir dieser Abschnitt die häufigsten Probleme, mit denen Serverbesitzer konfrontiert werden, und gibt dir Lösungen an die Hand, um sie schnell und effektiv zu beheben. Gib mir ein neues Beispiel!
 
 <InlineVoucher />
 
-
-
 ## Probleme und Lösungen
 
-Die Ursachen für Serverprobleme können variieren und sind oft nicht sofort ersichtlich. Lernen Sie, typische Probleme Schritt für Schritt zu beheben und sorgen Sie dafür, dass alles reibungslos läuft.
+Die Ursachen für Serverprobleme können vielfältig sein und sind oft nicht sofort ersichtlich. Lerne, typische Probleme Schritt für Schritt zu beheben und halte deinen Server am Laufen.
 
 ### Allgemein
-Allgemeine Probleme können alle Arten unerwarteter Schwierigkeiten umfassen, die in keine spezifische Kategorie passen. Sie beziehen sich oft auf Grundeinstellungen, fehlende Dateien oder einfache Fehlkonfigurationen. Diese lassen sich in der Regel schnell mit ein paar Überprüfungen und Anpassungen beheben.
+Allgemeine Probleme können alle möglichen unerwarteten Schwierigkeiten umfassen, die in keine spezielle Kategorie passen. Oft hängen sie mit Grundeinstellungen, fehlenden Dateien oder einfachen Fehlkonfigurationen zusammen. Diese lassen sich meist schnell mit ein paar Checks und Anpassungen beheben.
 
 <details>
   <summary>Server nicht sichtbar</summary>
 
-Eine fehlende Sichtbarkeit des Servers kann auftreten, wenn die Initialisierung nicht erfolgreich abgeschlossen wurde. Dies kann beispielsweise auf eine fehlerhafte Konfiguration oder beschädigte Dateien zurückzuführen sein. Weitere Informationen lassen sich meist in der Serverkonsole oder in Logdateien finden. Außerdem sollte sichergestellt werden, dass keine falschen Filtereinstellungen in der Serverliste verwendet werden, die verhindern, dass der Server angezeigt wird.
+Wenn dein Server nicht sichtbar ist, kann das daran liegen, dass die Initialisierung nicht erfolgreich abgeschlossen wurde. Das kann zum Beispiel an einer fehlerhaften Konfiguration oder beschädigten Dateien liegen. Weitere Infos findest du meist in der Serverkonsole oder den Logdateien. Außerdem solltest du sicherstellen, dass in der Serverliste keine falschen Filtereinstellungen aktiv sind, die verhindern, dass der Server angezeigt wird.
 
 </details>
 
+### Crashes
 
-### Abstürze
-
-Nichts unterbricht eine gute Session schneller als ein unerwarteter Absturz. Abstürze können durch fehlerhafte Serversoftware, defekte oder inkompatible Erweiterungen (wie Plugins, Mods, Ressourcen oder Frameworks), Systemüberlastung oder Fehlkonfigurationen verursacht werden.
+Nichts killt eine gute Session schneller als ein unerwarteter Crash. Crashes können durch fehlerhafte Server-Software, kaputte oder inkompatible Erweiterungen (wie Plugins, Mods, Ressourcen oder Frameworks), Systemüberlastung oder Fehlkonfigurationen verursacht werden.
 
 <details>
-  <summary>Halten Sie Ihren Server auf dem neuesten Stand</summary>
+  <summary>Halte deinen Server auf dem neuesten Stand</summary>
 
-Es ist essenziell für Stabilität, Sicherheit und Kompatibilität, Ihren Spielserver mit der neuesten Version zu betreiben. Spielupdates, Framework-Änderungen oder Modifikationen an Drittanbieter-Tools können zu ernsthaften Problemen führen, wenn Ihre Server-Version veraltet ist.
+Es ist super wichtig, deinen Game-Server immer mit der neuesten Version laufen zu lassen – das sorgt für Stabilität, Sicherheit und Kompatibilität. Game-Updates, Framework-Änderungen oder Anpassungen an Drittanbieter-Tools können sonst zu ernsten Problemen führen, wenn dein Server veraltet ist.
 
-Ein veralteter Spielserver kann Abstürze, unerwartetes Verhalten oder sogar das vollständige Startversagen verursachen.
+Ein veralteter Server kann Crashes, unerwartetes Verhalten oder sogar Startprobleme verursachen.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/JXLHyHeMJqErHLJ/preview)
-
 
 </details>
 
 <details>
   <summary>Fehlerhafte/problematische Erweiterungen (Frameworks, Plugins, Mods, Ressourcen)</summary>
 
-Abstürze werden oft durch fehlerhafte oder veraltete Erweiterungen verursacht. Ob Framework, Plugin, Mod oder Ressource – Probleme können auftreten, wenn eine Erweiterung nicht mit der neuesten Spielversion kompatibel ist oder Fehler im Code enthält.
+Crashes werden oft durch fehlerhafte oder veraltete Erweiterungen verursacht. Egal ob Framework, Plugin, Mod oder Resource – Probleme tauchen auf, wenn eine Erweiterung nicht mit der aktuellen Game-Version kompatibel ist oder Bugs im Code hat.
 
-Dies kann zu unerwarteten Serverabstürzen, Einfrierungen oder Fehlern führen, insbesondere wenn mehrere problematische Erweiterungen zusammenwirken. Wenn Sie vermuten, dass eine Erweiterung die Ursache ist, versuchen Sie, diese vorübergehend zu deaktivieren und prüfen Sie, ob Ihr Server ohne sie stabil bleibt. Dies ist eine einfache Methode, um herauszufinden, welche Erweiterung Probleme verursacht.
+Das kann zu unerwarteten Server-Crashes, Freezes oder Fehlern führen, besonders wenn mehrere problematische Erweiterungen zusammenwirken. Wenn du vermutest, dass eine Erweiterung schuld ist, deaktiviere sie testweise und schau, ob dein Server ohne sie stabil bleibt. So findest du schnell heraus, welche Erweiterung Ärger macht.
 
-Stellen Sie sicher, dass alle von Ihnen verwendeten Erweiterungen aktuell, aktiv gepflegt und auf Kompatibilität mit der aktuellen Spielversion getestet sind, um Abstürze und Ausfallzeiten zu vermeiden.
+Achte darauf, dass alle Erweiterungen, die du nutzt, aktuell, aktiv gepflegt und auf Kompatibilität mit deiner Game-Version getestet sind, um Crashes und Ausfälle zu vermeiden.
 
-Um die Ursache von Absturzproblemen einzugrenzen, ist es oft hilfreich, zusätzlichen Inhalt vorübergehend zu deaktivieren. Beginnen Sie mit einer minimalen Konfiguration und prüfen Sie, ob das Problem weiterhin besteht. Wenn das Problem verschwindet, führen Sie Erweiterungen, Mods oder Ressourcen schrittweise wieder ein und testen Sie nach jedem Schritt. Dieser schrittweise Ansatz hilft, das spezifische Element zu identifizieren, das Probleme verursacht. Diese Methode schränkt potenzielle Ursachen effizient ein und stellt sicher, dass Ihre Fehlersuche auf Fakten und nicht auf Vermutungen basiert.
-
-</details>
-
-### Leistung
-
-Eine reibungslose Serverleistung ist entscheidend für ein gutes Spielerlebnis. Probleme wie Lag, Verzögerungen oder plötzliche Abstürze treten häufig auf, wenn die Serverkonfiguration nicht optimal ist, die Hardware nicht den Anforderungen des Spiels entspricht oder installierte Erweiterungen das System überlasten.
-
-Typische Ursachen sind eine schlechte Konfiguration, fehlende Ressourcen oder nicht optimierte Plugins und Mods. Die Überprüfung und Anpassung dieser Bereiche hilft, die meisten leistungsbezogenen Probleme zu beheben und sorgt dafür, dass Ihr Spiel stabil und reaktionsschnell läuft.
-
-<details>
-  <summary>Schlechte Serverkonfiguration</summary>
-
-Falsche oder schlecht angepasste Servereinstellungen können zu höherem Ressourcenverbrauch führen und Leistungsprobleme wie Lag oder Ruckeln verursachen. Stellen Sie sicher, dass Ihre Konfigurationswerte den empfohlenen Einstellungen für Ihr Spiel und Ihre Servergröße entsprechen. Überprüfen und passen Sie diese bei Bedarf an, um Ihren Server so effizient wie möglich zu betreiben.
-
-Sie können Ihre Konfiguration über die verfügbaren Einstellungen im Bereich **Einstellungen** oder direkt in den Konfigurationsdateien unter **Configs** Ihrer Weboberfläche ändern.
+Um die Ursache von Crashes zu isolieren, hilft es oft, zusätzlichen Content vorübergehend zu deaktivieren. Starte mit einer minimalen Konfiguration und prüfe, ob das Problem weiterhin besteht. Wenn nicht, füge Erweiterungen, Mods oder Ressourcen Schritt für Schritt wieder hinzu und teste nach jedem Schritt. So findest du den Übeltäter gezielt. Diese Methode spart Zeit und sorgt dafür, dass du auf Fakten statt Vermutungen basierst.
 
 </details>
 
+### Performance
+
+Eine flüssige Server-Performance ist das A und O für ein gutes Spielerlebnis. Probleme wie Lag, Verzögerungen oder plötzliche Crashes treten oft auf, wenn die Server-Konfiguration suboptimal ist, die Hardware nicht den Anforderungen entspricht oder installierte Erweiterungen das System überlasten.
+
+Typische Ursachen sind falsche Einstellungen, fehlende Ressourcen oder nicht optimierte Plugins und Mods. Wenn du diese Bereiche checkst und anpasst, kannst du die meisten Performance-Probleme lösen und dein Game stabil und reaktionsschnell halten.
+
 <details>
-  <summary>Nicht erfüllte Spielanforderungen</summary>
+  <summary>Schlechte Server-Konfiguration</summary>
 
-Um sicherzustellen, dass Ihr Spielserver reibungslos und zuverlässig läuft, ist es wichtig, eine Konfiguration zu wählen, die den Anforderungen Ihres geplanten Projekts entspricht. Die Anforderungen können je nach Spiel, Verwendung von Erweiterungen wie Mods, Plugins oder Ressourcen und der erwarteten Spielerzahl stark variieren.
+Falsche oder schlecht angepasste Server-Einstellungen können zu höherem Ressourcenverbrauch führen und Performance-Probleme wie Lag oder Ruckler verursachen. Stell sicher, dass deine Konfigurationswerte den empfohlenen Einstellungen für dein Game und die Servergröße entsprechen. Überprüfe und passe sie bei Bedarf an, damit dein Server so effizient wie möglich läuft.
 
-ZAP-Hosting bietet während des Bestellvorgangs eine empfohlene Mindestkonfiguration an. Diese Vorschläge basieren auf typischen Anwendungsfällen und sollen Ihnen helfen, häufige Leistungsprobleme wie Lag, Abstürze oder lange Ladezeiten zu vermeiden.
+Du kannst deine Konfiguration über die verfügbaren Einstellungen im Bereich **Settings** oder direkt in den Konfigurationsdateien unter **Configs** im Webinterface ändern.
+
+</details>
+
+<details>
+  <summary>Spiel-Anforderungen nicht erfüllt</summary>
+
+Damit dein Game-Server flüssig und zuverlässig läuft, ist es wichtig, eine Konfiguration zu wählen, die zu deinem geplanten Projekt passt. Die Anforderungen variieren stark je nach Spiel, Nutzung von Erweiterungen wie Mods, Plugins oder Ressourcen und der erwarteten Spielerzahl.
+
+ZAP-Hosting gibt dir während der Bestellung eine empfohlene Mindestkonfiguration an die Hand. Diese basiert auf typischen Anwendungsfällen und soll dir helfen, gängige Performance-Probleme wie Lag, Crashes oder lange Ladezeiten zu vermeiden.
 
 ![img](https://screensaver01.zap-hosting.com/index.php/s/87ADJdwNAXxXxdk/preview)
 
-Bitte beachten Sie diese Empfehlungen oder skalieren Sie bei Bedarf nach oben, um optimale Stabilität und das bestmögliche Erlebnis für Sie und Ihre Spieler zu gewährleisten. Dies ist eine Mindestempfehlung.
+Halte dich unbedingt an diese Empfehlungen oder skaliere bei Bedarf hoch, um optimale Stabilität und das beste Erlebnis für dich und deine Spieler zu gewährleisten. Das ist eine Mindestempfehlung.
 
-Je nach Umfang Ihres Projekts und der Menge an zusätzlichem Inhalt können die benötigten Ressourcen bereits von Anfang an höher sein oder im Laufe der Zeit steigen. In solchen Fällen ist ein Upgrade Ihres Spielserver-Pakets eine einfache Möglichkeit, weiterhin Leistung und Stabilität sicherzustellen.
+Je nach Umfang deines Projekts und der Menge an zusätzlichem Content können die benötigten Ressourcen von Anfang an höher sein oder mit der Zeit steigen. In solchen Fällen ist ein Upgrade deines Game-Server-Pakets der einfachste Weg, um Performance und Stabilität sicherzustellen.
 
 </details>
 
 <details>
-  <summary>Nicht optimierte Erweiterungen (Frameworks, Plugins, Mods, Ressourcen)</summary>
+  <summary>Unoptimierte Erweiterungen (Frameworks, Plugins, Mods, Ressourcen)</summary>
 
-Nicht alle Erweiterungen sind auf Leistung optimiert. Ob Framework, Plugin, Mod oder Ressource – eine schlechte Umsetzung kann zu erheblichen Leistungsproblemen auf Ihrem Server führen. In vielen Fällen funktioniert die beabsichtigte Funktionalität zwar, aber die Ausführung ist ineffizient, zu komplex oder verursacht unnötige Belastung der Serverressourcen.
+Nicht alle Erweiterungen sind auf Performance getrimmt. Egal ob Framework, Plugin, Mod oder Resource – eine schlechte Umsetzung kann auf deinem Server zu erheblichen Performance-Problemen führen. Oft funktioniert die Funktionalität zwar, aber die Ausführung ist ineffizient, zu komplex oder belastet die Server-Ressourcen unnötig.
 
-Dies kann zu hoher CPU-Auslastung, Speicherlecks, Lag oder sogar Abstürzen führen, besonders wenn mehrere nicht optimierte Komponenten zusammenwirken. Stellen Sie stets sicher, dass Erweiterungen aktiv gepflegt, gut dokumentiert und auf Leistung getestet sind. Im Zweifelsfall konsultieren Sie Feedback aus der Community oder überwachen Sie die Serverleistung, um problematische Elemente zu identifizieren.
+Das kann zu hoher CPU-Auslastung, Speicherlecks, Lag oder sogar Crashes führen, besonders wenn mehrere unoptimierte Komponenten zusammenwirken. Achte immer darauf, dass Erweiterungen aktiv gepflegt, gut dokumentiert und auf Performance getestet sind. Im Zweifel hilft Feedback aus der Community oder das Monitoring der Server-Performance, um Problemquellen zu identifizieren.
 
-Um die Ursache von Leistungsproblemen einzugrenzen, ist es oft hilfreich, zusätzlichen Inhalt vorübergehend zu deaktivieren. Beginnen Sie mit einer minimalen Konfiguration und prüfen Sie, ob das Problem weiterhin besteht. Wenn das Problem verschwindet, führen Sie Erweiterungen, Mods oder Ressourcen schrittweise wieder ein und testen Sie nach jedem Schritt. Dieser schrittweise Ansatz hilft, das spezifische Element zu identifizieren, das Probleme verursacht, sei es ein Konflikt, Speicherleck oder übermäßiger Ressourcenverbrauch.
+Um die Ursache von Performance-Problemen zu isolieren, hilft es oft, zusätzlichen Content vorübergehend zu deaktivieren. Starte mit einer minimalen Konfiguration und prüfe, ob das Problem weiterhin besteht. Wenn nicht, füge Erweiterungen, Mods oder Ressourcen Schritt für Schritt wieder hinzu und teste nach jedem Schritt. So findest du den Übeltäter, egal ob Konflikt, Speicherleck oder übermäßige Ressourcennutzung.
 
-Diese Methode schränkt potenzielle Ursachen effizient ein und stellt sicher, dass Ihre Fehlersuche auf Fakten und nicht auf Vermutungen basiert.
+Diese Methode spart Zeit und sorgt dafür, dass du auf Fakten statt Vermutungen basierst.
 
 </details>
-
-
 
 ### Netzwerk
-Netzwerkprobleme können zu Lag, Verzögerungen oder Verbindungsabbrüchen führen. Diese Probleme können unterschiedliche Ursachen haben, lassen sich aber meist mit den richtigen Einstellungen und Sicherheitsmaßnahmen beheben.
+Netzwerkprobleme können zu Lag, Verzögerungen oder Verbindungsabbrüchen führen. Die Ursachen sind vielfältig, lassen sich aber meist mit den richtigen Einstellungen und Sicherheitsmaßnahmen beheben.
 
 <details>
-  <summary>Ping-Spikes, Lag und Netzwerkverzögerungen</summary>
+  <summary>Ping-Spikes, Lag und Netzwerk-Verzögerungen</summary>
 
-Ping-Spikes, Lag und Netzwerkverzögerungen sind meist die Folge begrenzter Serverressourcen wie unzureichender CPU-Leistung, RAM oder Bandbreite.
+Ping-Spikes, Lag und Netzwerk-Verzögerungen entstehen meist durch begrenzte Server-Ressourcen wie zu wenig CPU-Leistung, RAM oder Bandbreite.
 
-Sie können auch auftreten, wenn der Server durch eine hohe Spielerzahl oder ressourcenintensive Skripte und Plugins überlastet ist. Netzwerkbezogene Probleme wie schlechte Routingwege, externe Überlastungen oder das Hosting des Servers weit entfernt von der Spielerbasis können die Latenz zusätzlich erhöhen.
+Sie können auch auftreten, wenn der Server durch viele Spieler oder ressourcenintensive Skripte und Plugins überlastet ist. Netzwerkprobleme wie schlechte Routing-Wege, externe Überlastungen oder ein Serverstandort weit entfernt von der Spielerbasis erhöhen die Latenz zusätzlich.
 
-Darüber hinaus können Hintergrundprozesse, instabile Internetverbindungen, Paketverluste und veraltete oder falsch konfigurierte Serversoftware zu spürbaren Leistungsproblemen während des Spiels beitragen.
+Außerdem können Hintergrundprozesse, instabile Internetverbindungen, Paketverluste und veraltete oder falsch konfigurierte Server-Software spürbare Performance-Probleme im Spiel verursachen.
 
-Wenn Sie Lag oder hohen Ping auf Ihrem Server feststellen, gibt es einige einfache Schritte, um die Leistung zu verbessern. Stellen Sie zunächst sicher, dass Ihr Server die empfohlenen Spezifikationen für Ihr Spiel und Projekt erfüllt oder übertrifft. Die Wahl eines Serverstandorts in der Nähe Ihrer Spielerbasis kann ebenfalls helfen, die Latenz zu reduzieren.
+Wenn du Lag oder hohen Ping auf deinem Server bemerkst, kannst du ein paar einfache Schritte unternehmen, um die Performance zu verbessern. Prüfe zuerst, ob dein Server die empfohlenen Specs für dein Spiel und Projekt erfüllt oder übertrifft. Ein Serverstandort nahe bei deinen Spielern hilft ebenfalls, die Latenz zu reduzieren.
 
-Wenn Sie vermuten, dass Routing-Probleme oder externe Netzwerkprobleme Verzögerungen verursachen, zögern Sie nicht, unser Support-Team zu kontaktieren. Wir helfen Ihnen, die Situation zu analysieren und die bestmögliche Lösung zu finden.
-
+Wenn du vermutest, dass Routing-Probleme oder externe Netzwerkstörungen die Ursache sind, zögere nicht, unseren Support zu kontaktieren. Wir helfen dir, die Situation zu analysieren und die beste Lösung zu finden.
 
 </details>
 
 <details>
-  <summary>DDoS und andere Netzwerksicherheitsbedrohungen</summary>
+  <summary>DDoS und andere Netzwerk-Bedrohungen</summary>
 
-Spielserver können gelegentlich Ziel bösartiger Netzwerkaktivitäten werden, insbesondere von Distributed Denial of Service (DDoS)-Angriffen. Diese Angriffe überfluten den Server mit übermäßigem Datenverkehr, was zu Lag, Verbindungsverlust oder sogar vollständigen Ausfällen führen kann. In anderen Fällen versuchen Angreifer, Netzwerkschwachstellen auszunutzen oder die Serverstabilität durch wiederholte Verbindungsversuche oder ungewöhnliche Datenmuster zu stören.
+Game-Server können gelegentlich Ziel von bösartigen Netzwerk-Attacken werden, vor allem Distributed Denial of Service (DDoS)-Angriffe. Diese fluten den Server mit übermäßigem Traffic, was zu Lag, Verbindungsverlust oder sogar kompletter Downtime führt. In anderen Fällen versuchen Angreifer, Netzwerk-Schwachstellen auszunutzen oder die Server-Stabilität durch wiederholte Verbindungsversuche oder ungewöhnliche Datenmuster zu stören.
 
-Während die meisten dieser Bedrohungen außerhalb der Kontrolle des durchschnittlichen Nutzers liegen, bietet ZAP-Hosting integrierte Schutz- und Abwehrsysteme, um Ihren Server vor gängigen und fortgeschrittenen Angriffen zu schützen. Wenn Sie vermuten, dass Ihr Server Ziel eines Angriffs ist und Probleme verursacht, wenden Sie sich bitte an unser Support-Team für Unterstützung und weitere Anweisungen.
+Die meisten dieser Bedrohungen liegen außerhalb der Kontrolle des normalen Nutzers, aber ZAP-Hosting bietet integrierten Schutz und Abwehrmechanismen, um deinen Server vor gängigen und fortgeschrittenen Angriffen zu schützen. Wenn du vermutest, dass dein Server Ziel eines Angriffs ist und Probleme verursacht, kontaktiere unseren Support für Hilfe und weitere Schritte.
 
 </details>
-
-
-
-
-
 
 ## Vorbeugende Maßnahmen
 
-Regelmäßige Backups können viel Stress und Sorgen vermeiden. Erstellen Sie regelmäßige Sicherungen, um sicherzustellen, dass Sie im Falle von Problemen eine ältere Version haben, bei der noch alles funktioniert hat. Wir bieten eine Backup-Lösung für unsere Necesse-Spielserver an, mit der Sie manuelle oder geplante automatische Backups erstellen können.
-
-
+Regelmäßige Backups ersparen dir viel Stress und Ärger. Erstelle regelmäßig Backups, damit du im Problemfall auf eine ältere, funktionierende Version zurückgreifen kannst. Wir bieten für unsere Necesse-Game-Server eine Backup-Lösung an, mit der du manuelle oder automatische, geplante Backups erstellen kannst.
 
 <Button label="Zugriff auf ZAP-Storage" link="https://zap-hosting.com/en/customer/home/storage/" block/>
 
-
-
-
-
-
 ## Fazit
 
-Diese Schritte sollten Ihnen helfen, das Problem zu lösen. Wenn Ihr Problem hier aufgeführt ist, sollte die passende Lösung Sie bereits in die richtige Richtung weisen und Ihnen helfen, den Server wieder zum Laufen zu bringen.
+Diese Schritte sollten dir helfen, dein Problem zu lösen. Wenn dein Problem hier aufgeführt ist, zeigt dir die passende Lösung meist schon den richtigen Weg und bringt deinen Server schnell wieder zum Laufen.
 
-Falls nicht, zögern Sie bitte nicht, unser Support-Team für weitere Fragen oder Unterstützung zu kontaktieren. Wir sind täglich für Sie da! 🙂
+Falls nicht, zögere nicht, unseren Support zu kontaktieren – wir sind täglich für dich da und helfen dir gerne weiter! 🙂
 
 <InlineVoucher />
